@@ -73,28 +73,26 @@
   margin-left: 40px;
   font-size: 1rem;
 }
-@media screen and (max-width: 268px) {
-  .name__container {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    text-indent: 20px;
-    letter-spacing: 5px;
-  }
-  .name__desc {
-    color: #808080;
-    font-family: "Roboto", sans-serif;
-    text-indent: 20px;
-    letter-spacing: 2px;
-    line-height: 35px;
-  }
-  .name__desc2 {
-    color: #808080;
-    font-family: "Roboto", sans-serif;
-    text-indent: 20px;
-    letter-spacing: 2px;
-    line-height: 25px;
-  }
-  .name span {
-    color: yellow;
-  }
+.name__container {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-indent: 20px;
+  letter-spacing: 5px;
+}
+.name__desc {
+  color: #808080;
+  font-family: "Roboto", sans-serif;
+  text-indent: 20px;
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+.name__desc2 {
+  color: #808080;
+  font-family: "Roboto", sans-serif;
+  text-indent: 20px;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+.name span {
+  color: yellow;
 }/*# sourceMappingURL=styles.css.map */
