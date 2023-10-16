@@ -1,0 +1,69 @@
+@import '_media-queries.scss';
+
+%align-center{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem calc((100vw - 1200px) /2 );
+    z-index: 10;
+    position: relative;
+    
+    &__bars{
+        opacity: 0;
+        
+        @include tablet {
+            opacity: 1;
+            position: absolute;
+            top: 22px;
+            right: 20px;
+            font-size: 2rem;
+            color: white;
+        }
+    }
+
+    &__menu {
+        @extend %align-center;
+        list-style: none;
+        text-align: center;
+        margin-right: 24px;
+
+        @include tablet {
+            display: none;
+        }
+
+        &--links {
+            color: white;
+            @extend %align-center;
+            justify-content: center;
+            text-decoration: none;
+            padding: 0 1rem;
+
+            &:hover{
+                color: yellow;
+                transition: all 0.3s ease;
+            }
+        }
+
+        #Resume {
+            padding: 12px 24px;
+            border: 1px yellow solid;
+            outline: none;
+            border-radius: 5px;
+            background-color: transparent;
+            color: white;
+            margin-left: 16px;
+
+            &:hover{
+                background-color: yellow;
+                color: black;
+                font-weight: bold;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+}
