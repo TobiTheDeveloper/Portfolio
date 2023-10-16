@@ -41,5 +41,10 @@
     span{
         color: yellow;
     }
+
+    @include mobile {
+        width: 100%;
+        font-size: 0.6rem;
+    }
     
 }

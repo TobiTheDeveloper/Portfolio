@@ -95,4 +95,10 @@
 }
 .name span {
   color: yellow;
+}
+@media screen and (max-width: 268px) {
+  .name {
+    width: 100%;
+    font-size: 0.6rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
