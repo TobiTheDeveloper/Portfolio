@@ -15,31 +15,32 @@
     margin-left: 40px;
     font-size: 1rem;
 
+    @include mobile {
+        &__container {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            text-indent: 20px;
+            letter-spacing: 5px;
+        }
 
-    &__container {
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        text-indent: 20px;
-        letter-spacing: 5px;
-    }
+        &__desc {
+            color: #808080;
+            font-family: 'Roboto', sans-serif;
+            text-indent: 20px;
+            letter-spacing: 2px;
+            line-height: 35px;
+        }
 
-    &__desc {
-        color: #808080;
-        font-family: 'Roboto', sans-serif;
-        text-indent: 20px;
-        letter-spacing: 2px;
-        line-height: 35px;
-    }
+        &__desc2 {
+            color: #808080;
+            font-family: 'Roboto', sans-serif;
+            text-indent: 20px;
+            letter-spacing: 2px;
+            line-height: 25px;
+        }
 
-    &__desc2 {
-        color: #808080;
-        font-family: 'Roboto', sans-serif;
-        text-indent: 20px;
-        letter-spacing: 2px;
-        line-height: 25px;
-    }
-
-    span{
-        color: yellow;
+        span{
+            color: yellow;
+        }
     }
 }
