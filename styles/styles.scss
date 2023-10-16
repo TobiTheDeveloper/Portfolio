@@ -12,8 +12,9 @@
 // Introduction
 .name {
     margin-top: 50px;
-    margin-left: 40px;
-    font-size: 1rem;
+    margin-left: 20px;
+    font-size: 0.9rem;
+    width: 100%;
 
     &__container {
         color: white;
@@ -40,11 +41,6 @@
 
     span{
         color: yellow;
-    }
-
-    @include mobile {
-        width: 100%;
-        font-size: 0.6rem;
     }
     
 }

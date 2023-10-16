@@ -70,8 +70,9 @@
 
 .name {
   margin-top: 50px;
-  margin-left: 40px;
-  font-size: 1rem;
+  margin-left: 20px;
+  font-size: 0.9rem;
+  width: 100%;
 }
 .name__container {
   color: white;
@@ -95,10 +96,4 @@
 }
 .name span {
   color: yellow;
-}
-@media screen and (max-width: 268px) {
-  .name {
-    width: 100%;
-    font-size: 0.6rem;
-  }
 }/*# sourceMappingURL=styles.css.map */
