@@ -79,6 +79,7 @@
   .name__container {
     color: white;
     font-family: "Roboto", sans-serif;
+    font-size: 4rem;
   }
   .name__desc {
     color: #808080;
