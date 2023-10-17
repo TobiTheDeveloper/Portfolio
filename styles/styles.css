@@ -14,7 +14,7 @@
 .navbar__bars {
   opacity: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .navbar__bars {
     opacity: 1;
     position: absolute;
@@ -29,7 +29,7 @@
   text-align: center;
   margin-right: 24px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .navbar__menu {
     display: none;
   }
@@ -74,6 +74,33 @@
     margin-top: 50px;
     font-size: 0.9rem;
     padding-left: 40px;
+    width: 100%;
+  }
+  .name__container {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+  }
+  .name__desc {
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    line-height: 35px;
+    letter-spacing: 3px;
+  }
+  .name__desc2 {
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+  }
+  .name span {
+    color: yellow;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .name {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    padding-left: 60px;
     width: 100%;
   }
   .name__container {
