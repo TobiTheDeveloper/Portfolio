@@ -70,26 +70,23 @@
 
 .name {
   margin-top: 50px;
-  margin-left: 35px;
   font-size: 0.9rem;
-  width: 70%;
+  padding-left: 30px;
+  width: 100%;
   border: 1px solid red;
 }
 .name__container {
   color: white;
   font-family: "Roboto", sans-serif;
-  text-indent: 20px;
 }
 .name__desc {
   color: #808080;
   font-family: "Roboto", sans-serif;
-  text-indent: 20px;
   line-height: 35px;
 }
 .name__desc2 {
   color: #808080;
   font-family: "Roboto", sans-serif;
-  text-indent: 20px;
   line-height: 25px;
 }
 .name span {
