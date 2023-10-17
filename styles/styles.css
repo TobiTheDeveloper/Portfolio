@@ -66,29 +66,31 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #282828;
+  cursor: move;
 }
 
-.name {
-  margin-top: 50px;
-  font-size: 0.9rem;
-  padding-left: 30px;
-  width: 100%;
-  position: fixed;
-}
-.name__container {
-  color: white;
-  font-family: "Roboto", sans-serif;
-}
-.name__desc {
-  color: #808080;
-  font-family: "Roboto", sans-serif;
-  line-height: 35px;
-}
-.name__desc2 {
-  color: #808080;
-  font-family: "Roboto", sans-serif;
-  line-height: 25px;
-}
-.name span {
-  color: yellow;
+@media screen and (max-width: 480px) {
+  .name {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    padding-left: 40px;
+    width: 100%;
+  }
+  .name__container {
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+  .name__desc {
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    line-height: 35px;
+  }
+  .name__desc2 {
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+  }
+  .name span {
+    color: yellow;
+  }
 }/*# sourceMappingURL=styles.css.map */

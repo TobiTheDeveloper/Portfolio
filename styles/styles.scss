@@ -7,35 +7,37 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #282828;
+    cursor: move;
 }
 
 // Introduction
 .name {
-    margin-top: 50px;
-    font-size: 0.9rem;
-    padding-left:30px ;
-    width: 100%;
-    position: fixed;
+    @include mobile {
+        margin-top: 50px;
+        font-size: 0.9rem;
+        padding-left:40px ;
+        width: 100%;
 
-    &__container {
-        color: white;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    &__desc {
-        color: #808080;
-        font-family: 'Roboto', sans-serif;
-        line-height: 35px;
-    }
-
-    &__desc2 {
-        color: #808080;
-        font-family: 'Roboto', sans-serif;
-        line-height: 25px;
-    }
-
-    span{
-        color: yellow;
+        &__container {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+    
+        &__desc {
+            color: #808080;
+            font-family: 'Roboto', sans-serif;
+            line-height: 35px;
+        }
+    
+        &__desc2 {
+            color: #808080;
+            font-family: 'Roboto', sans-serif;
+            line-height: 25px;
+        }
+    
+        span{
+            color: yellow;
+        }
     }
     
 }
