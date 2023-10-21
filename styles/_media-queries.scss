@@ -1,13 +1,13 @@
-// Mobile Screen
+//Mobile Screen 
 @mixin mobile {
-    @media screen and (max-width: 767px) {
+    @media screen and (min-width: 480px) {
         @content;
     }
 }
 
 // Tablet Screen
 @mixin tablet {
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
+    @media screen and (min-width: 481px) and (max-width: 1024px) {
         @content;
     }
 }
