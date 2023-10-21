@@ -14,7 +14,7 @@
 .navbar__bars {
   opacity: 0;
 }
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .navbar__bars {
     opacity: 1;
     position: absolute;
@@ -29,7 +29,7 @@
   text-align: center;
   margin-right: 24px;
 }
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .navbar__menu {
     display: none;
   }
@@ -97,7 +97,7 @@
     color: yellow;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .name {
     margin-top: 50px;
     font-size: 0.9rem;
