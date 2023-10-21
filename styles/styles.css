@@ -14,6 +14,7 @@
 .navbar__bars {
   opacity: 0;
 }
+
 @media screen and (max-width: 1024px) {
   .navbar__bars {
     opacity: 1;
@@ -72,26 +73,27 @@
 @media screen and (max-width: 480px) {
   .name {
     margin-top: 50px;
-    font-size: 2rem;
-    padding-left: 0px;
+    font-size: 0.8rem;
+    padding-left: 20px;
     width: 100%;
-    border: 1px solid white;
   }
   .name__container {
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    padding-top: 15px;
+
   }
   .name__desc {
     color: #808080;
     font-family: "Roboto", sans-serif;
     line-height: 35px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
   }
   .name__desc2 {
     color: #808080;
     font-family: "Roboto", sans-serif;
     line-height: 25px;
+    letter-spacing: 2px;
   }
   .name span {
     color: yellow;
