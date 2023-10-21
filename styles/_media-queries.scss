@@ -1,18 +1,18 @@
-//Mobile Screen 
+// Mobile Screen
 @mixin mobile {
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
         @content;
     }
 }
 
-//Tablet Screen 
+// Tablet Screen
 @mixin tablet {
-    @media screen and (max-width: 1024px) {
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
         @content;
     }
 }
 
-//Tablet Screen 
+// Desktop Screen
 @mixin desktop {
     @media screen and (min-width: 1025px) {
         @content;
