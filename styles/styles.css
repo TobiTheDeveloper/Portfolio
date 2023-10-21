@@ -73,7 +73,7 @@
   .name {
     margin-top: 50px;
     font-size: 0.4rem;
-    padding-left: 30px;
+    padding-left: 0px;
     width: 100%;
     border: 1px solid white;
   }
@@ -101,7 +101,7 @@
   .name {
     margin-top: 50px;
     font-size: 0.9rem;
-    padding-left: 60px;
+    padding-left: 30px;
     width: 100%;
   }
   .name__container {
