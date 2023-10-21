@@ -14,7 +14,7 @@
 .navbar__bars {
   opacity: 0;
 }
-@media screen and (min-width: 576px) and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
   .navbar__bars {
     opacity: 1;
     position: absolute;
@@ -29,7 +29,7 @@
   text-align: center;
   margin-right: 24px;
 }
-@media screen and (min-width: 576px) and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
   .navbar__menu {
     display: none;
   }
@@ -69,40 +69,13 @@
   cursor: move;
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 480px) {
   .name {
     margin-top: 50px;
-    font-size: 0.4rem;
+    font-size: 2rem;
     padding-left: 0px;
     width: 100%;
     border: 1px solid white;
-  }
-  .name__container {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem;
-  }
-  .name__desc {
-    color: #808080;
-    font-family: "Roboto", sans-serif;
-    line-height: 35px;
-    letter-spacing: 3px;
-  }
-  .name__desc2 {
-    color: #808080;
-    font-family: "Roboto", sans-serif;
-    line-height: 25px;
-  }
-  .name span {
-    color: yellow;
-  }
-}
-@media screen and (min-width: 576px) and (max-width: 1279px) {
-  .name {
-    margin-top: 50px;
-    font-size: 0.9rem;
-    padding-left: 30px;
-    width: 100%;
   }
   .name__container {
     color: white;
