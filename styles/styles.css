@@ -69,7 +69,7 @@
   cursor: move;
 }
 
-@media screen and (min-width: 375px) and (max-width: 575px) {
+@media screen and (max-width: 590px) {
   .name {
     margin-top: 50px;
     font-size: 0.4rem;
