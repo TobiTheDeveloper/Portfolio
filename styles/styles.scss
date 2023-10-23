@@ -67,7 +67,7 @@
 }
 
 //Project Container
-.What2Do {
+.fristProject {
     @include mobile {
         background-color: #1e1e1e;
         margin-top: 30px;
@@ -82,7 +82,7 @@
         display: block;
     }    
     /* Additional styles for elements inside .What2Do */
-    &__projectName {
+    &__What2Do {
         line-height: 45px;
         letter-spacing: 3px; 
         background-color: transparent;       
