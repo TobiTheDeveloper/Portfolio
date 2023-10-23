@@ -100,3 +100,36 @@
     }
 }
 
+
+.secondProject {
+    @include mobile {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        font-size: 1rem;
+        padding-left: 20px;
+        height: 145px;
+        color: white;
+        width: 80%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }    
+    /* Additional styles for elements inside .What2Do */
+    &__CareerPathways {
+        line-height: 45px;
+        letter-spacing: 3px; 
+        background-color: transparent;       
+    }
+
+    &__desc {
+        background-color: transparent;  
+        line-height: 30px;
+     
+    }
+
+    &__techStack {
+        background-color: transparent;  
+        line-height: 35px;     
+    }
+}
