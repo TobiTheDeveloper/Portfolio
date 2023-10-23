@@ -14,7 +14,7 @@
 .navbar__bars {
   opacity: 0;
 }
-@media screen and (max-width: 769px) and (max-width: 1245px) {
+@media screen and (min-width: 438px) and (max-width: 1245px) {
   .navbar__bars {
     opacity: 1;
     position: absolute;
@@ -29,7 +29,7 @@
   text-align: center;
   margin-right: 24px;
 }
-@media screen and (max-width: 769px) and (max-width: 1245px) {
+@media screen and (min-width: 438px) and (max-width: 1245px) {
   .navbar__menu {
     display: none;
   }
@@ -112,6 +112,45 @@
     background-color: yellow;
     margin-left: 30px;
   }
+}
+
+.Portfolio {
+  /* Additional styles for elements inside .What2Do */
+}
+@media screen and (min-width: 320px) {
+  .Portfolio {
+    background-color: #1e1e1e;
+    margin-top: 30px;
+    font-size: 1rem;
+    padding-left: 20px;
+    height: 155px;
+    color: white;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+.Portfolio__Portfolio {
+  line-height: 45px;
+  letter-spacing: 3px;
+  background-color: transparent;
+}
+.Portfolio__desc {
+  background-color: transparent;
+  line-height: 35px;
+}
+.Portfolio__techStack {
+  background-color: transparent;
+  line-height: 35px;
+}
+.Portfolio .fa-solid {
+  color: white;
+  float: right;
+  position: relative;
+  bottom: 30px;
+  right: 40px;
 }
 
 .fristProject {
