@@ -166,7 +166,7 @@
         margin-left: auto;
         margin-right: auto;
         display: inline-block;
-        margin: 0 10px;
+        margin: 0 50px;
     
         /* Additional styles for elements inside .What2Do */
         &__Portfolio {
@@ -262,34 +262,68 @@
 }
 
 .secondProject {
-    @include mobile {
+        @include mobile {
+            background-color: #1e1e1e;
+            margin-top: 30px;
+            font-size: 1rem;
+            padding-left: 20px;
+            height: 145px;
+            color: white;
+            width: 80%;
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+    
+        /* Additional styles for elements inside .What2Do */
+        &__CareerPathways {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;       
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 30px;
+        
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+        }
+    }   
+
+    @include tablet {
         background-color: #1e1e1e;
         margin-top: 30px;
         font-size: 1rem;
         padding-left: 20px;
-        height: 145px;
+        height: 155px;
         color: white;
-        width: 80%;
+        width: 40%;
         border-radius: 10px;
-        margin-left: auto;
+        margin-left: 50px;
         margin-right: auto;
-        display: block;
-    }    
-    /* Additional styles for elements inside .What2Do */
-    &__CareerPathways {
-        line-height: 45px;
-        letter-spacing: 3px; 
-        background-color: transparent;       
-    }
+        display: inline-block;
 
-    &__desc {
-        background-color: transparent;  
-        line-height: 30px;
-     
-    }
+        /* Additional styles for elements inside .What2Do */
+        &__CareerPathways {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;       
+        }
 
-    &__techStack {
-        background-color: transparent;  
-        line-height: 35px;     
+        &__desc {
+            background-color: transparent;  
+            line-height: 30px;
+        
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+        }
+
     }
 }

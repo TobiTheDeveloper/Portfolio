@@ -214,7 +214,7 @@
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 50px;
     /* Additional styles for elements inside .What2Do */
   }
   .Portfolio__Portfolio {
@@ -298,9 +298,6 @@
   }
 }
 
-.secondProject {
-  /* Additional styles for elements inside .What2Do */
-}
 @media screen and (max-width: 767px) {
   .secondProject {
     background-color: #1e1e1e;
@@ -314,18 +311,48 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    /* Additional styles for elements inside .What2Do */
+  }
+  .secondProject__CareerPathways {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
+  }
+  .secondProject__desc {
+    background-color: transparent;
+    line-height: 30px;
+  }
+  .secondProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
   }
 }
-.secondProject__CareerPathways {
-  line-height: 45px;
-  letter-spacing: 3px;
-  background-color: transparent;
-}
-.secondProject__desc {
-  background-color: transparent;
-  line-height: 30px;
-}
-.secondProject__techStack {
-  background-color: transparent;
-  line-height: 35px;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .secondProject {
+    background-color: #1e1e1e;
+    margin-top: 30px;
+    font-size: 1rem;
+    padding-left: 20px;
+    height: 155px;
+    color: white;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: auto;
+    display: inline-block;
+    /* Additional styles for elements inside .What2Do */
+  }
+  .secondProject__CareerPathways {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
+  }
+  .secondProject__desc {
+    background-color: transparent;
+    line-height: 30px;
+  }
+  .secondProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
+  }
 }/*# sourceMappingURL=styles.css.map */
