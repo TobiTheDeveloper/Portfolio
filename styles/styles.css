@@ -14,7 +14,7 @@
 .navbar__bars {
   opacity: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .navbar__bars {
     opacity: 1;
     position: absolute;
@@ -24,7 +24,7 @@
     color: white;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .navbar__bars {
     opacity: 1;
     position: absolute;
@@ -75,17 +75,18 @@
   cursor: move;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .name {
-    margin-top: 30px;
-    font-size: 0.9rem;
-    padding-left: 30px;
-    width: 100%;
+    margin-top: 2px;
+    font-size: 15px;
+    padding-left: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .name__container {
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 5px;
   }
   .name__desc {
@@ -104,209 +105,54 @@
     color: yellow;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .name {
-    margin-top: 50px;
-    font-size: 1rem;
-    padding-left: 60px;
-    width: 100%;
-  }
-  .name__container {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 40px;
-    padding-bottom: 5px;
-  }
-  .name__desc {
-    color: #808080;
-    font-family: "Roboto", sans-serif;
-    line-height: 45px;
-    letter-spacing: 5px;
-  }
-  .name__desc2 {
-    color: #808080;
-    font-family: "Roboto", sans-serif;
-    line-height: 55px;
-    letter-spacing: 2px;
-  }
-  .name span {
-    color: yellow;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .name {
-    margin-top: 50px;
-    font-size: 1.1rem;
-    padding-left: 60px;
-    width: 100%;
-  }
-  .name__container {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 40px;
-    padding-bottom: 5px;
-  }
-  .name__desc {
-    color: #808080;
-    font-family: "Roboto", sans-serif;
-    line-height: 45px;
-    letter-spacing: 5px;
-  }
-  .name__desc2 {
-    color: #808080;
-    font-family: "Roboto", sans-serif;
-    line-height: 55px;
-    letter-spacing: 2px;
-  }
-  .name span {
-    color: yellow;
-  }
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .title__title {
-    padding-left: 5px;
+    padding-left: 0px;
     margin-top: 30px;
     color: black;
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
+    font-size: 20px;
     line-height: 25px;
-    letter-spacing: 3px;
-    width: 45%;
-    background-color: yellow;
-    margin-left: 30px;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .title__title {
-    padding-left: 5px;
-    margin-top: 30px;
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem;
-    letter-spacing: 3px;
-    width: 55%;
-    height: 40px;
-    background-color: yellow;
-    margin-left: 60px;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .title__title {
-    padding-left: 5px;
-    margin-top: 25px;
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem;
     letter-spacing: 3px;
     width: -moz-fit-content;
     width: fit-content;
-    height: 40px;
     background-color: yellow;
-    margin-left: 60px;
+    margin-left: 20px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .Portfolio {
     background-color: #1e1e1e;
     margin-top: 30px;
-    font-size: 1rem;
-    padding-left: 20px;
-    height: 155px;
-    color: white;
-    width: 80%;
+    padding: 20px;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 90%;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    /* Additional styles for elements inside .What2Do */
   }
   .Portfolio__Portfolio {
     line-height: 45px;
     letter-spacing: 3px;
     background-color: transparent;
+    color: white;
+    font-size: 30px;
   }
   .Portfolio__desc {
     background-color: transparent;
-    line-height: 35px;
-  }
-  .Portfolio__techStack {
-    background-color: transparent;
-    line-height: 35px;
-  }
-  .Portfolio .fa-solid {
-    color: white;
-    float: right;
-    position: relative;
-    bottom: 30px;
-    right: 40px;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .Portfolio {
-    background-color: #1e1e1e;
-    margin-top: 30px;
-    font-size: 1rem;
-    padding-left: 20px;
-    height: 155px;
-    color: white;
-    width: 40%;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    margin: 0 50px;
-    /* Additional styles for elements inside .What2Do */
-  }
-  .Portfolio__Portfolio {
     line-height: 45px;
-    letter-spacing: 3px;
-    background-color: transparent;
-  }
-  .Portfolio__desc {
-    background-color: transparent;
-    line-height: 35px;
+    color: white;
+    font-size: 20px;
   }
   .Portfolio__techStack {
     background-color: transparent;
     line-height: 35px;
-  }
-  .Portfolio .fa-solid {
     color: white;
-    float: right;
-    position: relative;
-    bottom: 30px;
-    right: 40px;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .Portfolio {
-    background-color: #1e1e1e;
-    font-size: 1rem;
-    padding-left: 20px;
-    height: 155px;
-    color: white;
-    width: 40%;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    margin: 0 50px;
-    /* Additional styles for elements inside .What2Do */
-  }
-  .Portfolio__Portfolio {
-    line-height: 45px;
-    letter-spacing: 3px;
-    background-color: transparent;
-  }
-  .Portfolio__desc {
-    background-color: transparent;
-    line-height: 35px;
-  }
-  .Portfolio__techStack {
-    background-color: transparent;
-    line-height: 35px;
+    font-size: 20px;
   }
   .Portfolio .fa-solid {
     color: white;
@@ -317,15 +163,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .fristProject {
     background-color: #1e1e1e;
     margin-top: 30px;
-    font-size: 1rem;
-    padding-left: 20px;
-    height: 120px;
-    color: white;
-    width: 80%;
+    padding: 20px;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 90%;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -336,160 +181,55 @@
     line-height: 45px;
     letter-spacing: 3px;
     background-color: transparent;
-  }
-  .fristProject__desc {
-    background-color: transparent;
-    line-height: 35px;
-  }
-  .fristProject__techStack {
-    background-color: transparent;
-    line-height: 35px;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .fristProject {
-    background-color: #1e1e1e;
-    margin-top: 30px;
-    font-size: 1rem;
-    padding-left: 20px;
-    height: 155px;
     color: white;
-    width: 40%;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    /* Additional styles for elements inside .What2Do */
-  }
-  .fristProject__What2Do {
-    line-height: 45px;
-    letter-spacing: 3px;
-    background-color: transparent;
+    font-size: 30px;
   }
   .fristProject__desc {
     background-color: transparent;
-    line-height: 35px;
-  }
-  .fristProject__techStack {
-    background-color: transparent;
-    line-height: 95px;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .fristProject {
-    background-color: #1e1e1e;
-    margin-top: 30px;
-    font-size: 1rem;
-    padding-left: 20px;
-    height: 155px;
+    line-height: 45px;
     color: white;
-    width: 40%;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    /* Additional styles for elements inside .What2Do */
-  }
-  .fristProject__What2Do {
-    line-height: 45px;
-    letter-spacing: 3px;
-    background-color: transparent;
-  }
-  .fristProject__desc {
-    background-color: transparent;
-    line-height: 35px;
+    font-size: 20px;
   }
   .fristProject__techStack {
     background-color: transparent;
-    line-height: 95px;
+    line-height: 35px;
+    color: white;
+    font-size: 20px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .secondProject {
     background-color: #1e1e1e;
     margin-top: 30px;
-    font-size: 1rem;
-    padding-left: 20px;
-    height: 145px;
-    color: white;
-    width: 80%;
+    padding: 20px;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 90%;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    /* Additional styles for elements inside .What2Do */
-  }
-  .secondProject__CareerPathways {
-    line-height: 45px;
-    letter-spacing: 3px;
-    background-color: transparent;
-  }
-  .secondProject__desc {
-    background-color: transparent;
-    line-height: 30px;
-  }
-  .secondProject__techStack {
-    background-color: transparent;
-    line-height: 35px;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .secondProject {
-    background-color: #1e1e1e;
-    margin-top: 30px;
-    font-size: 1rem;
-    padding-left: 20px;
-    height: 155px;
     color: white;
-    width: 40%;
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-right: auto;
-    display: inline-block;
-    /* Additional styles for elements inside .What2Do */
   }
   .secondProject__CareerPathways {
     line-height: 45px;
     letter-spacing: 3px;
     background-color: transparent;
-  }
-  .secondProject__desc {
-    background-color: transparent;
-    line-height: 30px;
-  }
-  .secondProject__techStack {
-    background-color: transparent;
-    line-height: 35px;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .secondProject {
-    background-color: #1e1e1e;
-    margin-top: 30px;
-    font-size: 1rem;
-    padding-left: 20px;
-    height: 155px;
     color: white;
-    width: 40%;
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-right: auto;
-    display: inline-block;
-    /* Additional styles for elements inside .What2Do */
-  }
-  .secondProject__CareerPathways {
-    line-height: 45px;
-    letter-spacing: 3px;
-    background-color: transparent;
+    font-size: 30px;
   }
   .secondProject__desc {
     background-color: transparent;
-    line-height: 30px;
+    line-height: 45px;
+    color: white;
+    font-size: 20px;
   }
   .secondProject__techStack {
     background-color: transparent;
     line-height: 35px;
+    color: white;
+    font-size: 20px;
   }
 }
 
@@ -504,6 +244,6 @@
   display: block;
   border-radius: 10px;
   padding: 10px 10px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 15px;
 }/*# sourceMappingURL=styles.css.map */
