@@ -14,6 +14,7 @@
     position: relative;
     
     &__bars{
+        opacity: 0;
 
         @include mobile {
             opacity: 1;
@@ -40,40 +41,35 @@
         text-align: center;
         margin-right: 24px;
         opacity: 0;
+    }
 
+    &__links {
+        color: white;
+        @extend %align-center;
+        justify-content: center;
+        text-decoration: none;
+        padding: 0 1rem;
 
-        @include mobile {
-            display: none;
+        &:hover{
+            color: yellow;
+            transition: all 0.3s ease;
         }
+    }
 
-        &__links {
-            color: white;
-            @extend %align-center;
-            justify-content: center;
-            text-decoration: none;
-            padding: 0 1rem;
+    #Resume {
+        padding: 12px 24px;
+        border: 1px yellow solid;
+        outline: none;
+        border-radius: 5px;
+        background-color: transparent;
+        color: white;
+        margin-left: 16px;
 
-            &:hover{
-                color: yellow;
-                transition: all 0.3s ease;
-            }
-        }
-
-        #Resume {
-            padding: 12px 24px;
-            border: 1px yellow solid;
-            outline: none;
-            border-radius: 5px;
-            background-color: transparent;
-            color: white;
-            margin-left: 16px;
-
-            &:hover{
-                background-color: yellow;
-                color: black;
-                font-weight: bold;
-                transition: all 0.3s ease;
-            }
+        &:hover{
+            background-color: yellow;
+            color: black;
+            font-weight: bold;
+            transition: all 0.3s ease;
         }
     }
 }

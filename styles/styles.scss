@@ -16,7 +16,7 @@
     @include mobile {
         
         margin-top: 30px;
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding-left: 30px;
         width: 100%;
 
@@ -48,7 +48,38 @@
 
     @include tablet {
         margin-top: 50px;
-        font-size: 2rem;
+        font-size: 1rem;
+        padding-left: 60px;
+        width: 100%;
+
+        &__container {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            padding-bottom: 5px;
+        }
+
+        &__desc {
+            color: #808080;
+            font-family: 'Roboto', sans-serif;
+            line-height: 45px;
+            letter-spacing: 5px;
+        }
+
+        &__desc2 {
+            color: #808080;
+            font-family: "Roboto", sans-serif;
+            line-height: 55px;
+            letter-spacing: 2px;
+        }
+        span{
+            color: yellow;
+        }
+    }
+
+    @include desktop {
+        margin-top: 50px;
+        font-size: 1.1rem;
         padding-left: 60px;
         width: 100%;
 
@@ -111,9 +142,26 @@
         }
     }
 
+    @include desktop {
+        &__title {
+            padding-left: 5px;
+            margin-top: 25px;
+            color: black;
+            font-family: "Roboto", sans-serif;
+            font-size: 2rem;
+            // line-height: 25px;
+            letter-spacing: 3px;
+            width: fit-content;   
+            height: 40px;    
+            background-color: yellow;
+            margin-left: 60px;
+        }
+    }
+
 }
 
 //Project Container
+//My Website
 .Portfolio {
     @include mobile {
         background-color: #1e1e1e;
@@ -193,8 +241,48 @@
             right: 40px;
         }
     }
+
+    @include desktop {
+        background-color: #1e1e1e;
+        font-size: 1rem;
+        padding-left: 20px;
+        height: 155px;
+        color: white;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        margin: 0 50px;
+    
+        /* Additional styles for elements inside .What2Do */
+        &__Portfolio {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;       
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+        
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+        }
+        .fa-solid{
+            color: white;
+            float: right;
+            position: relative;
+            bottom: 30px;
+            right: 40px;
+        }
+    }
 }
 
+//What2DO
 .fristProject {
     @include mobile {
         background-color: #1e1e1e;
@@ -259,8 +347,41 @@
             line-height: 95px;     
         }
     } 
+
+    @include desktop {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        font-size: 1rem;
+        padding-left: 20px;
+        height: 155px;
+        color: white;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    
+        /* Additional styles for elements inside .What2Do */
+        &__What2Do {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;       
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+        
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 95px;     
+        }
+    }
 }
 
+//CareerPathways
 .secondProject {
         @include mobile {
             background-color: #1e1e1e;
@@ -295,6 +416,39 @@
     }   
 
     @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        font-size: 1rem;
+        padding-left: 20px;
+        height: 155px;
+        color: white;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: auto;
+        display: inline-block;
+
+        /* Additional styles for elements inside .What2Do */
+        &__CareerPathways {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;       
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 30px;
+        
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+        }
+
+    }
+    
+    @include desktop {
         background-color: #1e1e1e;
         margin-top: 30px;
         font-size: 1rem;
