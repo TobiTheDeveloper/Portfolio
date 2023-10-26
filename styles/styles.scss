@@ -46,69 +46,69 @@
         }
     }
 
-    // @include tablet {
-    //     margin-top: 2px;
-    //     font-size: 1rem;
-    //     padding-left: 30px;
-    //     width: fit-content;
-    //     border: 1px solid pink;
+    @include tablet {
+        margin-top: 2px;
+        font-size: 1rem;
+        padding-left: 30px;
+        width: fit-content;
+        border: 1px solid pink;
 
-    //     &__container {
-    //         color: white;
-    //         font-family: 'Roboto', sans-serif;
-    //         font-size: 40px;
-    //         padding-bottom: 5px;
-    //     }
+        &__container {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            padding-bottom: 5px;
+        }
 
-    //     &__desc {
-    //         color: #808080;
-    //         font-family: 'Roboto', sans-serif;
-    //         line-height: 45px;
-    //         letter-spacing: 5px;
-    //     }
+        &__desc {
+            color: #808080;
+            font-family: 'Roboto', sans-serif;
+            line-height: 45px;
+            letter-spacing: 5px;
+        }
 
-    //     &__desc2 {
-    //         color: #808080;
-    //         font-family: "Roboto", sans-serif;
-    //         line-height: 55px;
-    //         letter-spacing: 2px;
-    //     }
-    //     span{
-    //         color: yellow;
-    //     }
-    // }
+        &__desc2 {
+            color: #808080;
+            font-family: "Roboto", sans-serif;
+            line-height: 55px;
+            letter-spacing: 2px;
+        }
+        span{
+            color: yellow;
+        }
+    }
 
-    // @include desktop {
-    //     margin-top: 50px;
-    //     font-size: 1rem;
-    //     padding-left: 60px;
-    //     width: fit-content;
-    //     border: 1px solid greenyellow;
+    @include desktop {
+        margin-top: 50px;
+        font-size: 1rem;
+        padding-left: 60px;
+        width: fit-content;
+        border: 1px solid greenyellow;
 
-    //     &__container {
-    //         color: white;
-    //         font-family: 'Roboto', sans-serif;
-    //         font-size: 40px;
-    //         padding-bottom: 5px;
-    //     }
+        &__container {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            padding-bottom: 5px;
+        }
 
-    //     &__desc {
-    //         color: #808080;
-    //         font-family: 'Roboto', sans-serif;
-    //         line-height: 45px;
-    //         letter-spacing: 5px;
-    //     }
+        &__desc {
+            color: #808080;
+            font-family: 'Roboto', sans-serif;
+            line-height: 45px;
+            letter-spacing: 5px;
+        }
 
-    //     &__desc2 {
-    //         color: #808080;
-    //         font-family: "Roboto", sans-serif;
-    //         line-height: 55px;
-    //         letter-spacing: 2px;
-    //     }
-    //     span{
-    //         color: yellow;
-    //     }
-    // }
+        &__desc2 {
+            color: #808080;
+            font-family: "Roboto", sans-serif;
+            line-height: 55px;
+            letter-spacing: 2px;
+        }
+        span{
+            color: yellow;
+        }
+    }
 }
 
 .title {
@@ -128,37 +128,37 @@
         }
     }
 
-    // @include tablet {
-    //     &__title {
-    //         padding-left: 5px;
-    //         margin-top: 30px;
-    //         color: black;
-    //         font-family: "Roboto", sans-serif;
-    //         font-size: 2rem;
-    //         // line-height: 25px;
-    //         letter-spacing: 3px;
-    //         width: 55%;   
-    //         height: 40px;    
-    //         background-color: yellow;
-    //         margin-left: 60px;
-    //     }
-    // }
+    @include tablet {
+        &__title {
+            padding-left: 5px;
+            margin-top: 30px;
+            color: black;
+            font-family: "Roboto", sans-serif;
+            font-size: 2rem;
+            // line-height: 25px;
+            letter-spacing: 3px;
+            width: 55%;   
+            height: 40px;    
+            background-color: yellow;
+            margin-left: 60px;
+        }
+    }
 
-    //  @include desktop {
-    //     &__title {
-    //         padding-left: 5px;
-    //         margin-top: 25px;
-    //         color: black;
-    //         font-family: "Roboto", sans-serif;
-    //         font-size: 2rem;
-    //         // line-height: 25px;
-    //         letter-spacing: 3px;
-    //         width: fit-content;   
-    //         height: 40px;    
-    //         background-color: yellow;
-    //         margin-left: 60px;
-    //     }
-    // }
+     @include desktop {
+        &__title {
+            padding-left: 5px;
+            margin-top: 25px;
+            color: black;
+            font-family: "Roboto", sans-serif;
+            font-size: 2rem;
+            // line-height: 25px;
+            letter-spacing: 3px;
+            width: fit-content;   
+            height: 40px;    
+            background-color: yellow;
+            margin-left: 60px;
+        }
+    }
 
 }
 
@@ -207,83 +207,83 @@
         }
     }
 
-    // @include tablet {
-    //     background-color: #1e1e1e;
-    //     margin-top: 30px;
-    //     font-size: 1rem;
-    //     padding-left: 20px;
-    //     height: 155px;
-    //     color: white;
-    //     width: 40%;
-    //     border-radius: 10px;
-    //     margin-left: auto;
-    //     margin-right: auto;
-    //     display: inline-block;
-    //     margin: 0 50px;
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        font-size: 1rem;
+        padding-left: 20px;
+        height: 155px;
+        color: white;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        margin: 0 50px;
     
-    //     &__Portfolio {
-    //         line-height: 45px;
-    //         letter-spacing: 3px; 
-    //         background-color: transparent;       
-    //     }
+        &__Portfolio {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;       
+        }
 
-    //     &__desc {
-    //         background-color: transparent;  
-    //         line-height: 35px;
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
         
-    //     }
+        }
 
-    //     &__techStack {
-    //         background-color: transparent;  
-    //         line-height: 35px;     
-    //     }
-    //     .fa-solid{
-    //         color: white;
-    //         float: right;
-    //         position: relative;
-    //         bottom: 30px;
-    //         right: 40px;
-    //     }
-    // }
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+        }
+        .fa-solid{
+            color: white;
+            float: right;
+            position: relative;
+            bottom: 30px;
+            right: 40px;
+        }
+    }
 
-    // @include desktop {
-    //     background-color: #1e1e1e;
-    //     font-size: 1rem;
-    //     padding-left: 20px;
-    //     height: 155px;
-    //     color: white;
-    //     width: 40%;
-    //     border-radius: 10px;
-    //     margin-left: auto;
-    //     margin-right: auto;
-    //     display: inline-block;
-    //     margin: 0 50px;
+    @include desktop {
+        background-color: #1e1e1e;
+        font-size: 1rem;
+        padding-left: 20px;
+        height: 155px;
+        color: white;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        margin: 0 50px;
     
-    //     /* Additional styles for elements inside .What2Do */
-    //     &__Portfolio {
-    //         line-height: 45px;
-    //         letter-spacing: 3px; 
-    //         background-color: transparent;       
-    //     }
+        /* Additional styles for elements inside .What2Do */
+        &__Portfolio {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;       
+        }
 
-    //     &__desc {
-    //         background-color: transparent;  
-    //         line-height: 35px;
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
         
-    //     }
+        }
 
-    //     &__techStack {
-    //         background-color: transparent;  
-    //         line-height: 35px;     
-    //     }
-    //     .fa-solid{
-    //         color: white;
-    //         float: right;
-    //         position: relative;
-    //         bottom: 30px;
-    //         right: 40px;
-    //     }
-    // }
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+        }
+        .fa-solid{
+            color: white;
+            float: right;
+            position: relative;
+            bottom: 30px;
+            right: 40px;
+        }
+    }
 }
 
 // //What2DO
@@ -323,69 +323,69 @@
         }
     } 
 
-    // @include tablet {
-    //     background-color: #1e1e1e;
-    //     margin-top: 30px;
-    //     font-size: 1rem;
-    //     padding-left: 20px;
-    //     height: 155px;
-    //     color: white;
-    //     width: 40%;
-    //     border-radius: 10px;
-    //     margin-left: auto;
-    //     margin-right: auto;
-    //     display: inline-block;
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        font-size: 1rem;
+        padding-left: 20px;
+        height: 155px;
+        color: white;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
     
-    //     /* Additional styles for elements inside .What2Do */
-    //     &__What2Do {
-    //         line-height: 45px;
-    //         letter-spacing: 3px; 
-    //         background-color: transparent;       
-    //     }
+        /* Additional styles for elements inside .What2Do */
+        &__What2Do {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;       
+        }
 
-    //     &__desc {
-    //         background-color: transparent;  
-    //         line-height: 35px;
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
         
-    //     }
+        }
 
-    //     &__techStack {
-    //         background-color: transparent;  
-    //         line-height: 95px;     
-    //     }
-    // } 
+        &__techStack {
+            background-color: transparent;  
+            line-height: 95px;     
+        }
+    } 
 
-    // @include desktop {
-    //     background-color: #1e1e1e;
-    //     margin-top: 30px;
-    //     font-size: 1rem;
-    //     padding-left: 20px;
-    //     height: 155px;
-    //     color: white;
-    //     width: 40%;
-    //     border-radius: 10px;
-    //     margin-left: auto;
-    //     margin-right: auto;
-    //     display: inline-block;
+    @include desktop {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        font-size: 1rem;
+        padding-left: 20px;
+        height: 155px;
+        color: white;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
     
-    //     /* Additional styles for elements inside .What2Do */
-    //     &__What2Do {
-    //         line-height: 45px;
-    //         letter-spacing: 3px; 
-    //         background-color: transparent;       
-    //     }
+        /* Additional styles for elements inside .What2Do */
+        &__What2Do {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;       
+        }
 
-    //     &__desc {
-    //         background-color: transparent;  
-    //         line-height: 35px;
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
         
-    //     }
+        }
 
-    //     &__techStack {
-    //         background-color: transparent;  
-    //         line-height: 95px;     
-    //     }
-    // }
+        &__techStack {
+            background-color: transparent;  
+            line-height: 95px;     
+        }
+    }
 }
 
 // //CareerPathways
@@ -426,71 +426,71 @@
     
     }   
 
-    // @include tablet {
-    //     background-color: #1e1e1e;
-    //     margin-top: 30px;
-    //     font-size: 1rem;
-    //     padding-left: 20px;
-    //     height: 155px;
-    //     color: white;
-    //     width: 40%;
-    //     border-radius: 10px;
-    //     margin-left: 50px;
-    //     margin-right: auto;
-    //     display: inline-block;
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        font-size: 1rem;
+        padding-left: 20px;
+        height: 155px;
+        color: white;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: auto;
+        display: inline-block;
 
-    //     /* Additional styles for elements inside .What2Do */
-    //     &__CareerPathways {
-    //         line-height: 45px;
-    //         letter-spacing: 3px; 
-    //         background-color: transparent;       
-    //     }
+        /* Additional styles for elements inside .What2Do */
+        &__CareerPathways {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;       
+        }
 
-    //     &__desc {
-    //         background-color: transparent;  
-    //         line-height: 30px;
+        &__desc {
+            background-color: transparent;  
+            line-height: 30px;
         
-    //     }
+        }
 
-    //     &__techStack {
-    //         background-color: transparent;  
-    //         line-height: 35px;     
-    //     }
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+        }
 
-    // }
+    }
     
-    // @include desktop {
-    //     background-color: #1e1e1e;
-    //     margin-top: 30px;
-    //     font-size: 1rem;
-    //     padding-left: 20px;
-    //     height: 155px;
-    //     color: white;
-    //     width: 40%;
-    //     border-radius: 10px;
-    //     margin-left: 50px;
-    //     margin-right: auto;
-    //     display: inline-block;
+    @include desktop {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        font-size: 1rem;
+        padding-left: 20px;
+        height: 155px;
+        color: white;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: auto;
+        display: inline-block;
 
-    //     /* Additional styles for elements inside .What2Do */
-    //     &__CareerPathways {
-    //         line-height: 45px;
-    //         letter-spacing: 3px; 
-    //         background-color: transparent;       
-    //     }
+        /* Additional styles for elements inside .What2Do */
+        &__CareerPathways {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;       
+        }
 
-    //     &__desc {
-    //         background-color: transparent;  
-    //         line-height: 30px;
+        &__desc {
+            background-color: transparent;  
+            line-height: 30px;
         
-    //     }
+        }
 
-    //     &__techStack {
-    //         background-color: transparent;  
-    //         line-height: 35px;     
-    //     }
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+        }
 
-    // }
+    }
 }
 
 .Certificates {
