@@ -355,4 +355,19 @@
     background-color: transparent;
     line-height: 35px;
   }
+}
+
+.Certificates {
+  color: white;
+  border: 1px solid yellow;
+  height: 50px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=styles.css.map */
