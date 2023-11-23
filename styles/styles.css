@@ -73,6 +73,7 @@
   box-sizing: border-box;
   background-color: #141414;
   cursor: move;
+  overflow: hidden;
 }
 
 .intro {
