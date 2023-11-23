@@ -198,4 +198,36 @@
     color: white;
     font-size: 0.9em;
   }
+}
+
+.secondProject {
+  background-color: #1e1e1e;
+  margin-top: 30px;
+  padding: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 90%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.secondProject__CareerPathways {
+  line-height: 45px;
+  letter-spacing: 3px;
+  background-color: transparent;
+  color: white;
+  font-size: 1em;
+}
+.secondProject__desc {
+  background-color: transparent;
+  line-height: 30px;
+  color: white;
+  font-size: 0.9em;
+}
+.secondProject__techStack {
+  background-color: transparent;
+  line-height: 35px;
+  color: white;
+  font-size: 0.9em;
 }/*# sourceMappingURL=styles.css.map */
