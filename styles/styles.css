@@ -123,4 +123,45 @@
     background-color: yellow;
     margin-left: 20px;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .Portfolio {
+    background-color: #1e1e1e;
+    margin-top: 30px;
+    padding: 20px;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .Portfolio__Portfolio {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+  }
+  .Portfolio__desc {
+    background-color: transparent;
+    line-height: 45px;
+    color: white;
+    font-size: 0.9em;
+  }
+  .Portfolio__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 0.9em;
+  }
+  .Portfolio .fa-solid {
+    color: white;
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 40px;
+  }
 }/*# sourceMappingURL=styles.css.map */
