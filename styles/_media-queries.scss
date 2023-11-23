@@ -1,6 +1,12 @@
 // Mobile Screen 
 @mixin mobile {
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 600px) {
+        @content;
+    }
+}
+
+@mixin LargePhones {
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
         @content;
     }
 }
