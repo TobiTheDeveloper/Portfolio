@@ -9,7 +9,7 @@
     box-sizing: border-box;
     background-color: #141414;
     cursor: move;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 // Introduction
@@ -108,4 +108,39 @@
             right: 40px;
         }
     }
+}
+
+.fristProject {
+    @include mobile {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        padding: 20px;
+        height: fit-content;
+        width: 90%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    
+        &__What2Do {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 45px;
+            color: white;
+            font-size: 0.9em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 0.9em;
+        }    }
 }
