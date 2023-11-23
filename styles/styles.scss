@@ -53,16 +53,12 @@
 .title{
     @include mobile {
         &__title{
-            padding: 10px;
-            padding-bottom: 35px;
             margin-top: 30px;
             color: black;
             font-family: "Roboto", sans-serif;
             font-size: 25px;
-            line-height: 25px;
             letter-spacing: 3px;
             width: fit-content;    
-            height: 35px;   
             background-color: yellow;
             margin-left: 20px;
         }
