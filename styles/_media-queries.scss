@@ -5,23 +5,9 @@
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@mixin smallerMobile {
-    @media only screen and (min-width: 600px) {
-        @content;
-    }
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
-@mixin medium {
-    @media only screen and (min-width: 768px) {
-        @content;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@mixin largeDevice {
-    @media only screen and (min-width: 992px) {
+@mixin tablets {
+    @media only screen and (max-width: 601px) {
         @content;
     }
 }
