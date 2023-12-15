@@ -109,6 +109,38 @@
     letter-spacing: 5px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .intro {
+    margin-top: 2px;
+    padding-left: 30px;
+    width: 100%;
+  }
+  .intro__container {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 3em;
+    padding-bottom: 15px;
+  }
+  .intro__desc {
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    line-height: 65px;
+    letter-spacing: 5px;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+  }
+  .intro__desc2 {
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    line-height: 35px;
+    letter-spacing: 3px;
+    font-size: 1.4em;
+  }
+  .intro span {
+    color: yellow;
+    letter-spacing: 6px;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .title {
@@ -125,6 +157,23 @@
     width: fit-content;
     background-color: yellow;
     margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .title {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .title__title {
+    margin-top: 30px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 3px;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: yellow;
+    margin-left: 30px;
   }
 }
 
@@ -168,6 +217,45 @@
     right: 40px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Portfolio {
+    background-color: #1e1e1e;
+    margin-top: 30px;
+    padding: 20px;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: inline-block;
+  }
+  .Portfolio__Portfolio {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+  }
+  .Portfolio__desc {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .Portfolio__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .Portfolio .fa-solid {
+    color: white;
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 40px;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .fristProject {
@@ -200,6 +288,37 @@
     line-height: 35px;
     color: white;
     font-size: 0.9em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .fristProject {
+    background-color: #1e1e1e;
+    margin-top: 30px;
+    padding: 20px;
+    height: 190px;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 30px;
+    display: inline-block;
+  }
+  .fristProject__What2Do {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+  }
+  .fristProject__desc {
+    background-color: transparent;
+    line-height: 45px;
+    color: white;
+    font-size: 1em;
+  }
+  .fristProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
   }
 }
 
@@ -236,6 +355,38 @@
     font-size: 0.9em;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .secondProject {
+    background-color: #1e1e1e;
+    margin-top: 30px;
+    padding: 20px;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: inline-block;
+  }
+  .secondProject__CareerPathways {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+  }
+  .secondProject__desc {
+    background-color: transparent;
+    line-height: 30px;
+    color: white;
+    font-size: 1em;
+  }
+  .secondProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .thirdProject {
@@ -261,13 +412,44 @@
     background-color: transparent;
     line-height: 30px;
     color: white;
-    font-size: 0.9em;
+    font-size: 1em;
   }
   .thirdProject__techStack {
     background-color: transparent;
     line-height: 35px;
     color: white;
-    font-size: 0.9em;
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .thirdProject {
+    background-color: #1e1e1e;
+    margin-top: 30px;
+    padding: 20px;
+    height: 230px;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 30px;
+    display: inline-block;
+  }
+  .thirdProject__Konnext {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+  }
+  .thirdProject__desc {
+    background-color: transparent;
+    line-height: 30px;
+    color: white;
+    font-size: 1em;
+  }
+  .thirdProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
   }
 }
 

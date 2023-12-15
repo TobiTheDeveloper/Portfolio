@@ -50,6 +50,41 @@
             letter-spacing: 5px;
         }
     }
+
+    @include tablet {
+        margin-top: 2px;
+        padding-left: 30px;
+        width: 100%;
+
+        &__container {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 3em;
+            padding-bottom: 15px;
+        }    
+
+        &__desc {
+            color: #808080;
+            font-family: 'Roboto', sans-serif;
+            line-height: 65px;
+            letter-spacing: 5px;
+            font-size: 1.4em;
+            padding-bottom: 10px;
+        }
+
+        &__desc2 {
+            color: #808080;
+            font-family: "Roboto", sans-serif;
+            line-height: 35px;
+            letter-spacing: 3px;
+            font-size: 1.4em;
+        }
+
+        span {
+            color: yellow;
+            letter-spacing: 6px;
+        }
+    }
 }
 
 .title{
@@ -67,7 +102,23 @@
             margin-left: 20px;
         }
     }
+
+    @include tablet {
+        width: fit-content;
+
+        &__title{
+            margin-top: 30px;
+            color: black;
+            font-family: "Roboto", sans-serif;
+            font-size: 1.4em;
+            letter-spacing: 3px;
+            width: fit-content;    
+            background-color: yellow;
+            margin-left: 30px;
+        }
+    }
 }
+
 
 .Portfolio{
     @include mobile {
@@ -101,6 +152,47 @@
             line-height: 35px;     
             color: white;
             font-size: 0.9em;
+        }
+
+        .fa-solid{
+            color: white;
+            float: right;
+            position: relative;
+            bottom: 30px;
+            right: 40px;
+        }
+    }
+
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        padding: 20px;
+        height: fit-content;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: 50px;
+        display: inline-block;   
+
+        &__Portfolio{
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 1em;
         }
 
         .fa-solid{
@@ -149,6 +241,39 @@
         }    
     }
 
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        padding: 20px;
+        height: 190px;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: 30px;
+        display: inline-block;
+
+        &__What2Do {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 45px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 1em;
+        } 
+    }
+
 }
 
 .secondProject {
@@ -185,6 +310,39 @@
             font-size: 0.9em;
         } 
     }
+
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        padding: 20px;
+        height: fit-content;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: 50px;
+        display: inline-block;  
+
+        &__CareerPathways{
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 30px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 1em;
+        } 
+    }
 }
 
 .thirdProject {
@@ -211,14 +369,47 @@
             background-color: transparent;  
             line-height: 30px;
             color: white;
-            font-size: 0.9em;
+            font-size: 1em;
         }
 
         &__techStack {
             background-color: transparent;  
             line-height: 35px;     
             color: white;
-            font-size: 0.9em;
+            font-size: 1em;
+        } 
+    }
+
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        padding: 20px;
+        height: 230px;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: 30px;
+        display: inline-block;  
+
+        &__Konnext{
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 30px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 1em;
         } 
     }
 }
