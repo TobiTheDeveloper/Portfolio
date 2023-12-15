@@ -40,19 +40,26 @@
         list-style: none;
         text-align: center;
         margin-right: 24px;
-        opacity: 0;
-    }
 
-    &__links {
-        color: white;
-        @extend %align-center;
-        justify-content: center;
-        text-decoration: none;
-        padding: 0 1rem;
+        @include mobile {
+            opacity: 0;
+        }
 
-        &:hover{
-            color: yellow;
-            transition: all 0.3s ease;
+        @include tablet {
+            opacity: 0;
+        }
+
+        &--links {
+            color: white;
+            @extend %align-center;
+            justify-content: center;
+            text-decoration: none;
+            padding: 0 1rem;
+    
+            &:hover{
+                color: yellow;
+                transition: all 0.3s ease;
+            }
         }
     }
 

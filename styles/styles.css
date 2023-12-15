@@ -1,4 +1,4 @@
-.navbar__links, .navbar__menu {
+.navbar__menu--links, .navbar__menu {
   display: flex;
   align-items: center;
 }
@@ -38,15 +38,24 @@
   list-style: none;
   text-align: center;
   margin-right: 24px;
-  opacity: 0;
 }
-.navbar__links {
+@media only screen and (max-width: 767px) {
+  .navbar__menu {
+    opacity: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar__menu {
+    opacity: 0;
+  }
+}
+.navbar__menu--links {
   color: white;
   justify-content: center;
   text-decoration: none;
   padding: 0 1rem;
 }
-.navbar__links:hover {
+.navbar__menu--links:hover {
   color: yellow;
   transition: all 0.3s ease;
 }
@@ -86,7 +95,7 @@
   .intro__container {
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
     padding-bottom: 15px;
   }
   .intro__desc {
@@ -141,6 +150,38 @@
     letter-spacing: 6px;
   }
 }
+@media only screen and (min-width: 992px) {
+  .intro {
+    margin-top: 40px;
+    padding-left: 30px;
+    width: 100%;
+  }
+  .intro__container {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.1em;
+    padding-bottom: 15px;
+  }
+  .intro__desc {
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    line-height: 65px;
+    letter-spacing: 5px;
+    font-size: 1.9em;
+    padding-bottom: 10px;
+  }
+  .intro__desc2 {
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    line-height: 35px;
+    letter-spacing: 3px;
+    font-size: 1.9em;
+  }
+  .intro span {
+    color: yellow;
+    letter-spacing: 6px;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .title {
@@ -169,6 +210,24 @@
     color: black;
     font-family: "Roboto", sans-serif;
     font-size: 1.4em;
+    letter-spacing: 3px;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: yellow;
+    margin-left: 30px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .title {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .title__title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6em;
     letter-spacing: 3px;
     width: -moz-fit-content;
     width: fit-content;
