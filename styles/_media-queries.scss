@@ -1,20 +1,20 @@
-/* Extra small devices (phones, 600px and down) */
+// Phone
 @mixin mobile {
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 767px) {
         @content;
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@mixin tablets {
-    @media only screen and (max-width: 601px) {
+// Tablet
+@mixin tablet {
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
         @content;
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@mixin Desktop {
-    @media only screen and (min-width: 1200px) {
+// Desktop
+@mixin desktop {
+    @media only screen and (min-width: 992px) {
         @content;
     }
 }
