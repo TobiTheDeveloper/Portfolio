@@ -1,19 +1,19 @@
 @import '_media-queries';
 
-%align-center{
+%align-center {
     display: flex;
     align-items: center;
 }
 
-.navbar{
+.navbar {
     height: 80px;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem calc((100vw - 1200px) /2 );
     z-index: 10;
     position: relative;
-    
-    &__bars{
+
+    &__bars {
         opacity: 0;
 
         @include mobile {
@@ -24,7 +24,7 @@
             font-size: 2rem;
             color: white;
         }
-        
+
         @include tablet {
             opacity: 1;
             position: absolute;
@@ -43,10 +43,28 @@
 
         @include mobile {
             opacity: 0;
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            width: 100%;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
         }
 
         @include tablet {
             opacity: 0;
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            width: 100%;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
         }
 
         &--links {
@@ -55,8 +73,8 @@
             justify-content: center;
             text-decoration: none;
             padding: 0 1rem;
-    
-            &:hover{
+
+            &:hover {
                 color: yellow;
                 transition: all 0.3s ease;
             }
@@ -72,7 +90,7 @@
         color: white;
         margin-left: 16px;
 
-        &:hover{
+        &:hover {
             background-color: yellow;
             color: black;
             font-weight: bold;
@@ -80,3 +98,4 @@
         }
     }
 }
+
