@@ -1,5 +1,26 @@
 @import '_media-queries';
 
+
+
+.navbar {
+    .container-fluid {
+
+        button {
+            background-color: white;
+
+        }
+
+        .navbar-nav a {
+            color: white;
+            padding: 0.3em;
+            margin: 0.5em;
+            &:hover {
+                color: yellow;
+                border: 1px solid white;
+            }
+        }
+    }
+
     #Resume {
         padding: 12px 24px;
         border: 1px yellow solid;
@@ -8,7 +29,7 @@
         background-color: transparent;
         color: white;
         margin-left: 16px;
-
+    
         &:hover {
             background-color: yellow;
             color: black;
@@ -16,5 +37,5 @@
             transition: all 0.3s ease;
         }
     }
-
+}
 

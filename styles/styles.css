@@ -1,4 +1,16 @@
-#Resume {
+.navbar .container-fluid button {
+  background-color: white;
+}
+.navbar .container-fluid .navbar-nav a {
+  color: white;
+  padding: 0.3em;
+  margin: 0.5em;
+}
+.navbar .container-fluid .navbar-nav a:hover {
+  color: yellow;
+  border: 1px solid white;
+}
+.navbar #Resume {
   padding: 12px 24px;
   border: 1px yellow solid;
   outline: none;
@@ -7,20 +19,20 @@
   color: white;
   margin-left: 16px;
 }
-#Resume:hover {
+.navbar #Resume:hover {
   background-color: yellow;
   color: black;
   font-weight: bold;
   transition: all 0.3s ease;
 }
 
-* {
+body {
+  background-color: #141414;
   font-family: "Roboto", sans-serif;
   margin: 0px;
   padding: 0px;
   width: auto;
   box-sizing: border-box;
-  background-color: #141414;
   cursor: move;
   overflow-x: hidden;
 }
