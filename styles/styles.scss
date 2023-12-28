@@ -466,6 +466,74 @@
     }
 }
 
+.forthProject {
+    @include mobile {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        padding: 20px;
+        height: fit-content;
+        width: 90%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+        &__Moviez{
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 30px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 1em;
+        } 
+    }
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        padding: 20px;
+        height: 230px;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: 30px;
+        display: inline-block;  
+
+        &__Moviez{
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 30px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 1em;
+        } 
+    }
+}
+
 .Certificates {
     color: white;
     border: 1px solid yellow;
