@@ -37,7 +37,7 @@ body {
   overflow-x: hidden;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   .intro {
     margin-top: 2px;
     padding-left: 20px;
@@ -69,72 +69,8 @@ body {
     letter-spacing: 5px;
   }
 }
-@media only screen and (min-width: 960px) and (max-width: 1199px) {
-  .intro {
-    margin-top: 2px;
-    padding-left: 30px;
-    width: 100%;
-  }
-  .intro__container {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 3em;
-    padding-bottom: 15px;
-  }
-  .intro__desc {
-    color: #808080;
-    font-family: "Roboto", sans-serif;
-    line-height: 65px;
-    letter-spacing: 5px;
-    font-size: 1.4em;
-    padding-bottom: 10px;
-  }
-  .intro__desc2 {
-    color: #808080;
-    font-family: "Roboto", sans-serif;
-    line-height: 35px;
-    letter-spacing: 3px;
-    font-size: 1.4em;
-  }
-  .intro span {
-    color: yellow;
-    letter-spacing: 6px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .intro {
-    margin-top: 40px;
-    padding-left: 30px;
-    width: 100%;
-  }
-  .intro__container {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 2.1em;
-    padding-bottom: 15px;
-  }
-  .intro__desc {
-    color: #808080;
-    font-family: "Roboto", sans-serif;
-    line-height: 65px;
-    letter-spacing: 5px;
-    font-size: 1.9em;
-    padding-bottom: 10px;
-  }
-  .intro__desc2 {
-    color: #808080;
-    font-family: "Roboto", sans-serif;
-    line-height: 35px;
-    letter-spacing: 3px;
-    font-size: 1.9em;
-  }
-  .intro span {
-    color: yellow;
-    letter-spacing: 6px;
-  }
-}
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   .title {
     width: -moz-fit-content;
     width: fit-content;
@@ -149,41 +85,6 @@ body {
     width: fit-content;
     background-color: yellow;
     margin-left: 20px;
-  }
-}
-@media only screen and (min-width: 960px) and (max-width: 1199px) {
-  .title {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .title__title {
-    margin-top: 30px;
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 1.4em;
-    letter-spacing: 3px;
-    width: -moz-fit-content;
-    width: fit-content;
-    background-color: yellow;
-    margin-left: 30px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .title {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .title__title {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 1.6em;
-    letter-spacing: 3px;
-    width: -moz-fit-content;
-    width: fit-content;
-    background-color: yellow;
-    margin-left: 30px;
   }
 }
 
@@ -208,7 +109,6 @@ body {
     font-size: 1em;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
   }
   .Portfolio__desc {
     background-color: transparent;
@@ -217,7 +117,6 @@ body {
     font-size: 0.9em;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
   }
   .Portfolio__techStack {
     background-color: transparent;
@@ -226,10 +125,9 @@ body {
     font-size: 0.9em;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
   }
 }
-@media only screen and (min-width: 960px) and (max-width: 1199px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   .Portfolio {
     background-color: #1e1e1e;
     margin-top: 30px;
@@ -290,7 +188,6 @@ body {
     font-size: 1em;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
   }
   .fristProject__desc {
     background-color: transparent;
@@ -299,7 +196,6 @@ body {
     font-size: 0.9em;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
   }
   .fristProject__techStack {
     background-color: transparent;
@@ -308,10 +204,9 @@ body {
     font-size: 0.9em;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
   }
 }
-@media only screen and (min-width: 960px) and (max-width: 1199px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   .fristProject {
     background-color: #1e1e1e;
     margin-top: 30px;
@@ -363,7 +258,6 @@ body {
     color: white;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
     font-size: 1em;
   }
   .secondProject__desc {
@@ -372,7 +266,6 @@ body {
     color: white;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
     font-size: 0.9em;
     text-align: start;
   }
@@ -383,10 +276,9 @@ body {
     font-size: 0.9em;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
   }
 }
-@media only screen and (min-width: 960px) and (max-width: 1199px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   .secondProject {
     background-color: #1e1e1e;
     margin-top: 30px;
@@ -440,7 +332,6 @@ body {
     font-size: 1em;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
   }
   .thirdProject__desc {
     background-color: transparent;
@@ -448,7 +339,6 @@ body {
     color: white;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
     font-size: 1em;
     text-align: start;
   }
@@ -458,11 +348,10 @@ body {
     color: white;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
     font-size: 1em;
   }
 }
-@media only screen and (min-width: 960px) and (max-width: 1199px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   .thirdProject {
     background-color: #1e1e1e;
     margin-top: 30px;
@@ -515,7 +404,6 @@ body {
     font-size: 1em;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
   }
   .forthProject__desc {
     background-color: transparent;
@@ -524,7 +412,6 @@ body {
     font-size: 1em;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
   }
   .forthProject__techStack {
     background-color: transparent;
@@ -533,10 +420,9 @@ body {
     font-size: 1em;
     width: -moz-fit-content;
     width: fit-content;
-    border: 2px solid wheat;
   }
 }
-@media only screen and (min-width: 960px) and (max-width: 1199px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   .forthProject {
     background-color: #1e1e1e;
     margin-top: 30px;

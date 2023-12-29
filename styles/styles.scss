@@ -17,7 +17,7 @@ body {
 // Introduction
 .intro {
 
-    @include mobile {
+    @include smallPhones {
         margin-top: 2px;
         padding-left: 20px;
         width: 100%;
@@ -53,80 +53,80 @@ body {
         }
     }
 
-    @include tablet {
-        margin-top: 2px;
-        padding-left: 30px;
-        width: 100%;
+    // @include tablet {
+    //     margin-top: 2px;
+    //     padding-left: 30px;
+    //     width: 100%;
 
-        &__container {
-            color: white;
-            font-family: 'Roboto', sans-serif;
-            font-size: 3em;
-            padding-bottom: 15px;
-        }    
+    //     &__container {
+    //         color: white;
+    //         font-family: 'Roboto', sans-serif;
+    //         font-size: 3em;
+    //         padding-bottom: 15px;
+    //     }    
 
-        &__desc {
-            color: #808080;
-            font-family: 'Roboto', sans-serif;
-            line-height: 65px;
-            letter-spacing: 5px;
-            font-size: 1.4em;
-            padding-bottom: 10px;
-        }
+    //     &__desc {
+    //         color: #808080;
+    //         font-family: 'Roboto', sans-serif;
+    //         line-height: 65px;
+    //         letter-spacing: 5px;
+    //         font-size: 1.4em;
+    //         padding-bottom: 10px;
+    //     }
 
-        &__desc2 {
-            color: #808080;
-            font-family: "Roboto", sans-serif;
-            line-height: 35px;
-            letter-spacing: 3px;
-            font-size: 1.4em;
-        }
+    //     &__desc2 {
+    //         color: #808080;
+    //         font-family: "Roboto", sans-serif;
+    //         line-height: 35px;
+    //         letter-spacing: 3px;
+    //         font-size: 1.4em;
+    //     }
 
-        span {
-            color: yellow;
-            letter-spacing: 6px;
-        }
-    }
+    //     span {
+    //         color: yellow;
+    //         letter-spacing: 6px;
+    //     }
+    // }
 
-    @include desktop {
-        margin-top: 40px;
-        padding-left: 30px;
-        width: 100%;
+    // @include desktop {
+    //     margin-top: 40px;
+    //     padding-left: 30px;
+    //     width: 100%;
 
-        &__container {
-            color: white;
-            font-family: 'Roboto', sans-serif;
-            font-size: 2.1em;
-            padding-bottom: 15px;
-        }    
+    //     &__container {
+    //         color: white;
+    //         font-family: 'Roboto', sans-serif;
+    //         font-size: 2.1em;
+    //         padding-bottom: 15px;
+    //     }    
 
-        &__desc {
-            color: #808080;
-            font-family: 'Roboto', sans-serif;
-            line-height: 65px;
-            letter-spacing: 5px;
-            font-size: 1.9em;
-            padding-bottom: 10px;
-        }
+    //     &__desc {
+    //         color: #808080;
+    //         font-family: 'Roboto', sans-serif;
+    //         line-height: 65px;
+    //         letter-spacing: 5px;
+    //         font-size: 1.9em;
+    //         padding-bottom: 10px;
+    //     }
 
-        &__desc2 {
-            color: #808080;
-            font-family: "Roboto", sans-serif;
-            line-height: 35px;
-            letter-spacing: 3px;
-            font-size: 1.9em;
-        }
+    //     &__desc2 {
+    //         color: #808080;
+    //         font-family: "Roboto", sans-serif;
+    //         line-height: 35px;
+    //         letter-spacing: 3px;
+    //         font-size: 1.9em;
+    //     }
 
-        span {
-            color: yellow;
-            letter-spacing: 6px;
-        }
-    }
+    //     span {
+    //         color: yellow;
+    //         letter-spacing: 6px;
+    //     }
+    // }
 }
 
 .title{
 
-    @include mobile {
+    @include smallPhones {
 
         width: fit-content;
 
@@ -143,36 +143,36 @@ body {
         }
     }
 
-    @include tablet {
-        width: fit-content;
+    // @include tablet {
+    //     width: fit-content;
 
-        &__title{
-            margin-top: 30px;
-            color: black;
-            font-family: "Roboto", sans-serif;
-            font-size: 1.4em;
-            letter-spacing: 3px;
-            width: fit-content;    
-            background-color: yellow;
-            margin-left: 30px;
-        }
-    }
+    //     &__title{
+    //         margin-top: 30px;
+    //         color: black;
+    //         font-family: "Roboto", sans-serif;
+    //         font-size: 1.4em;
+    //         letter-spacing: 3px;
+    //         width: fit-content;    
+    //         background-color: yellow;
+    //         margin-left: 30px;
+    //     }
+    // }
 
-    @include desktop {
-        width: fit-content;
+    // @include desktop {
+    //     width: fit-content;
 
-        &__title{
-            margin-top: 30px;
-            margin-bottom: 20px;
-            color: black;
-            font-family: "Roboto", sans-serif;
-            font-size: 1.6em;
-            letter-spacing: 3px;
-            width: fit-content;    
-            background-color: yellow;
-            margin-left: 30px;
-        }
-    }
+    //     &__title{
+    //         margin-top: 30px;
+    //         margin-bottom: 20px;
+    //         color: black;
+    //         font-family: "Roboto", sans-serif;
+    //         font-size: 1.6em;
+    //         letter-spacing: 3px;
+    //         width: fit-content;    
+    //         background-color: yellow;
+    //         margin-left: 30px;
+    //     }
+    // }
 }
 
 
@@ -196,7 +196,6 @@ body {
             color: white;
             font-size: 1em;
             width: fit-content;
-            border: 2px solid wheat;
         }
 
         &__desc {
@@ -205,7 +204,6 @@ body {
             color: white;
             font-size: 0.9em;
             width: fit-content;
-            border: 2px solid wheat;
         }
 
         &__techStack {
@@ -214,7 +212,6 @@ body {
             color: white;
             font-size: 0.9em;
             width: fit-content;
-            border: 2px solid wheat;
         }
     }
 
@@ -283,7 +280,6 @@ body {
             color: white;
             font-size: 1em;
             width: fit-content;
-            border: 2px solid wheat;
         }
 
         &__desc {
@@ -292,7 +288,6 @@ body {
             color: white;
             font-size: 0.9em;
             width: fit-content;
-            border: 2px solid wheat;
         }
 
         &__techStack {
@@ -301,7 +296,6 @@ body {
             color: white;
             font-size: 0.9em;
             width: fit-content;
-            border: 2px solid wheat;
         }    
     }
 
@@ -357,7 +351,6 @@ body {
             background-color: transparent;    
             color: white;
             width: fit-content;
-            border: 2px solid wheat;
             font-size: 1em;
         }
 
@@ -366,7 +359,6 @@ body {
             line-height: 30px;
             color: white;
             width: fit-content;
-            border: 2px solid wheat;
             font-size: 0.9em;
             text-align: start;
         }
@@ -377,7 +369,6 @@ body {
             color: white;
             font-size: 0.9em;
             width: fit-content;
-            border: 2px solid wheat;
         } 
     }
 
@@ -434,7 +425,6 @@ body {
             color: white;
             font-size: 1em;
             width: fit-content;
-            border: 2px solid wheat;
         }
 
         &__desc {
@@ -442,7 +432,6 @@ body {
             line-height: 30px;
             color: white;
             width: fit-content;
-            border: 2px solid wheat;
             font-size: 1em;
             text-align: start;
         }
@@ -452,7 +441,6 @@ body {
             line-height: 35px;     
             color: white;
             width: fit-content;
-            border: 2px solid wheat;
             font-size: 1em;
         } 
     }
@@ -510,7 +498,6 @@ body {
             color: white;
             font-size: 1em;
             width: fit-content;
-            border: 2px solid wheat;
         }
 
         &__desc {
@@ -519,7 +506,6 @@ body {
             color: white;
             font-size: 1em;
             width: fit-content;
-            border: 2px solid wheat;
         }
 
         &__techStack {
@@ -528,7 +514,6 @@ body {
             color: white;
             font-size: 1em;
             width: fit-content;
-            border: 2px solid wheat;
         } 
     }
 
