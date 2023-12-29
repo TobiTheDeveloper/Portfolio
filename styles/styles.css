@@ -262,6 +262,44 @@ body {
     width: fit-content;
   }
 }
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .fristProject {
+    background-color: #1e1e1e;
+    margin-top: 30px;
+    padding: 20px;
+    width: 94%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .fristProject__What2Do {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+  }
+  .fristProject__desc {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .fristProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .fristProject .fa-solid {
+    color: white;
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 40px;
+  }
+}
 
 @media only screen and (max-width: 480px) {
   .secondProject {
@@ -301,6 +339,44 @@ body {
     font-size: 0.9em;
     width: -moz-fit-content;
     width: fit-content;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .secondProject {
+    background-color: #1e1e1e;
+    margin-top: 30px;
+    padding: 20px;
+    width: 94%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .secondProject__CareerPathways {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+  }
+  .secondProject__desc {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .secondProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .secondProject .fa-solid {
+    color: white;
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 40px;
   }
 }
 
@@ -344,6 +420,44 @@ body {
     font-size: 1em;
   }
 }
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .thirdProject {
+    background-color: #1e1e1e;
+    margin-top: 30px;
+    padding: 20px;
+    width: 94%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .thirdProject__Konnext {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+  }
+  .thirdProject__desc {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .thirdProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .thirdProject .fa-solid {
+    color: white;
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 40px;
+  }
+}
 
 @media only screen and (max-width: 480px) {
   .forthProject {
@@ -382,6 +496,44 @@ body {
     font-size: 1em;
     width: -moz-fit-content;
     width: fit-content;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .forthProject {
+    background-color: #1e1e1e;
+    margin-top: 30px;
+    padding: 20px;
+    width: 94%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .forthProject__Moviez {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+  }
+  .forthProject__desc {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .forthProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .forthProject .fa-solid {
+    color: white;
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 40px;
   }
 }
 
