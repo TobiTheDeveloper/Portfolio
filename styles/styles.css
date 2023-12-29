@@ -69,7 +69,7 @@ body {
     letter-spacing: 5px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
   .intro {
     margin-top: 2px;
     padding-left: 30px;
@@ -101,7 +101,7 @@ body {
     letter-spacing: 6px;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .intro {
     margin-top: 40px;
     padding-left: 30px;
@@ -151,7 +151,7 @@ body {
     margin-left: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
   .title {
     width: -moz-fit-content;
     width: fit-content;
@@ -168,7 +168,7 @@ body {
     margin-left: 30px;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .title {
     width: -moz-fit-content;
     width: fit-content;
@@ -187,7 +187,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   .Portfolio {
     background-color: #1e1e1e;
     margin-top: 30px;
@@ -212,7 +212,7 @@ body {
   }
   .Portfolio__desc {
     background-color: transparent;
-    line-height: 45px;
+    line-height: 30px;
     color: white;
     font-size: 0.9em;
     width: -moz-fit-content;
@@ -229,14 +229,14 @@ body {
     border: 2px solid wheat;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
   .Portfolio {
     background-color: #1e1e1e;
     margin-top: 30px;
     padding: 20px;
     height: -moz-fit-content;
     height: fit-content;
-    width: 40%;
+    width: 50%;
     border-radius: 10px;
     margin-left: 50px;
     display: inline-block;
@@ -269,7 +269,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   .fristProject {
     background-color: #1e1e1e;
     margin-top: 30px;
@@ -311,7 +311,7 @@ body {
     border: 2px solid wheat;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
   .fristProject {
     background-color: #1e1e1e;
     margin-top: 30px;
@@ -343,7 +343,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   .secondProject {
     background-color: #1e1e1e;
     margin-top: 30px;
@@ -386,7 +386,7 @@ body {
     border: 2px solid wheat;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
   .secondProject {
     background-color: #1e1e1e;
     margin-top: 30px;
@@ -419,7 +419,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   .thirdProject {
     background-color: #1e1e1e;
     margin-top: 30px;
@@ -462,7 +462,7 @@ body {
     font-size: 1em;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
   .thirdProject {
     background-color: #1e1e1e;
     margin-top: 30px;
@@ -494,7 +494,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   .forthProject {
     background-color: #1e1e1e;
     margin-top: 30px;
@@ -536,7 +536,7 @@ body {
     border: 2px solid wheat;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
   .forthProject {
     background-color: #1e1e1e;
     margin-top: 30px;

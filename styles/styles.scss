@@ -178,7 +178,7 @@ body {
 
 .Portfolio{
     
-    @include mobile {
+    @include smallPhones {
         background-color: #1e1e1e;
         margin-top: 30px;
         padding: 20px;
@@ -201,7 +201,7 @@ body {
 
         &__desc {
             background-color: transparent;  
-            line-height: 45px;
+            line-height: 30px;
             color: white;
             font-size: 0.9em;
             width: fit-content;
@@ -218,12 +218,12 @@ body {
         }
     }
 
-    @include tablet {
+    @include mediumPhones {
         background-color: #1e1e1e;
         margin-top: 30px;
         padding: 20px;
         height: fit-content;
-        width: 40%;
+        width: 50%;
         border-radius: 10px;
         margin-left: 50px;
         display: inline-block;   
@@ -264,7 +264,7 @@ body {
 
 .fristProject {
     
-    @include mobile {
+    @include smallPhones {
 
         background-color: #1e1e1e;
         margin-top: 30px;
@@ -305,7 +305,7 @@ body {
         }    
     }
 
-    @include tablet {
+    @include mediumPhones {
         background-color: #1e1e1e;
         margin-top: 30px;
         padding: 20px;
@@ -340,7 +340,7 @@ body {
 }
 
 .secondProject {
-    @include mobile {
+    @include smallPhones {
         background-color: #1e1e1e;
         margin-top: 30px;
         padding: 20px;
@@ -381,7 +381,7 @@ body {
         } 
     }
 
-    @include tablet {
+    @include mediumPhones {
         background-color: #1e1e1e;
         margin-top: 30px;
         padding: 20px;
@@ -416,7 +416,7 @@ body {
 }
 
 .thirdProject {
-    @include mobile {
+    @include smallPhones {
         background-color: #1e1e1e;
         margin-top: 30px;
         padding: 20px;
@@ -457,7 +457,7 @@ body {
         } 
     }
 
-    @include tablet {
+    @include mediumPhones {
         background-color: #1e1e1e;
         margin-top: 30px;
         padding: 20px;
@@ -492,7 +492,7 @@ body {
 }
 
 .forthProject {
-    @include mobile {
+    @include smallPhones {
         background-color: #1e1e1e;
         margin-top: 30px;
         padding: 20px;
@@ -532,7 +532,7 @@ body {
         } 
     }
 
-    @include tablet {
+    @include mediumPhones {
         background-color: #1e1e1e;
         margin-top: 30px;
         padding: 20px;
