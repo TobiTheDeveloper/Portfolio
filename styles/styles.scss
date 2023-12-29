@@ -195,6 +195,8 @@ body {
             background-color: transparent;    
             color: white;
             font-size: 1em;
+            width: fit-content;
+            border: 2px solid wheat;
         }
 
         &__desc {
@@ -202,6 +204,8 @@ body {
             line-height: 45px;
             color: white;
             font-size: 0.9em;
+            width: fit-content;
+            border: 2px solid wheat;
         }
 
         &__techStack {
@@ -209,14 +213,8 @@ body {
             line-height: 35px;     
             color: white;
             font-size: 0.9em;
-        }
-
-        .fa-solid{
-            color: white;
-            float: right;
-            position: relative;
-            bottom: 30px;
-            right: 40px;
+            width: fit-content;
+            border: 2px solid wheat;
         }
     }
 
@@ -265,6 +263,7 @@ body {
 }
 
 .fristProject {
+    
     @include mobile {
 
         background-color: #1e1e1e;
@@ -283,6 +282,8 @@ body {
             background-color: transparent;    
             color: white;
             font-size: 1em;
+            width: fit-content;
+            border: 2px solid wheat;
         }
 
         &__desc {
@@ -290,6 +291,8 @@ body {
             line-height: 45px;
             color: white;
             font-size: 0.9em;
+            width: fit-content;
+            border: 2px solid wheat;
         }
 
         &__techStack {
@@ -297,6 +300,8 @@ body {
             line-height: 35px;     
             color: white;
             font-size: 0.9em;
+            width: fit-content;
+            border: 2px solid wheat;
         }    
     }
 
@@ -351,6 +356,8 @@ body {
             letter-spacing: 3px; 
             background-color: transparent;    
             color: white;
+            width: fit-content;
+            border: 2px solid wheat;
             font-size: 1em;
         }
 
@@ -358,7 +365,10 @@ body {
             background-color: transparent;  
             line-height: 30px;
             color: white;
+            width: fit-content;
+            border: 2px solid wheat;
             font-size: 0.9em;
+            text-align: start;
         }
 
         &__techStack {
@@ -366,6 +376,8 @@ body {
             line-height: 35px;     
             color: white;
             font-size: 0.9em;
+            width: fit-content;
+            border: 2px solid wheat;
         } 
     }
 
@@ -421,19 +433,26 @@ body {
             background-color: transparent;    
             color: white;
             font-size: 1em;
+            width: fit-content;
+            border: 2px solid wheat;
         }
 
         &__desc {
             background-color: transparent;  
             line-height: 30px;
             color: white;
+            width: fit-content;
+            border: 2px solid wheat;
             font-size: 1em;
+            text-align: start;
         }
 
         &__techStack {
             background-color: transparent;  
             line-height: 35px;     
             color: white;
+            width: fit-content;
+            border: 2px solid wheat;
             font-size: 1em;
         } 
     }
@@ -490,6 +509,8 @@ body {
             background-color: transparent;    
             color: white;
             font-size: 1em;
+            width: fit-content;
+            border: 2px solid wheat;
         }
 
         &__desc {
@@ -497,6 +518,8 @@ body {
             line-height: 30px;
             color: white;
             font-size: 1em;
+            width: fit-content;
+            border: 2px solid wheat;
         }
 
         &__techStack {
@@ -504,6 +527,8 @@ body {
             line-height: 35px;     
             color: white;
             font-size: 1em;
+            width: fit-content;
+            border: 2px solid wheat;
         } 
     }
 

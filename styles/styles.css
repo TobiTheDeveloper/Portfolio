@@ -206,25 +206,27 @@ body {
     background-color: transparent;
     color: white;
     font-size: 1em;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
   }
   .Portfolio__desc {
     background-color: transparent;
     line-height: 45px;
     color: white;
     font-size: 0.9em;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
   }
   .Portfolio__techStack {
     background-color: transparent;
     line-height: 35px;
     color: white;
     font-size: 0.9em;
-  }
-  .Portfolio .fa-solid {
-    color: white;
-    float: right;
-    position: relative;
-    bottom: 30px;
-    right: 40px;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -286,18 +288,27 @@ body {
     background-color: transparent;
     color: white;
     font-size: 1em;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
   }
   .fristProject__desc {
     background-color: transparent;
     line-height: 45px;
     color: white;
     font-size: 0.9em;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
   }
   .fristProject__techStack {
     background-color: transparent;
     line-height: 35px;
     color: white;
     font-size: 0.9em;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -350,19 +361,29 @@ body {
     letter-spacing: 3px;
     background-color: transparent;
     color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
     font-size: 1em;
   }
   .secondProject__desc {
     background-color: transparent;
     line-height: 30px;
     color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
     font-size: 0.9em;
+    text-align: start;
   }
   .secondProject__techStack {
     background-color: transparent;
     line-height: 35px;
     color: white;
     font-size: 0.9em;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -417,17 +438,27 @@ body {
     background-color: transparent;
     color: white;
     font-size: 1em;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
   }
   .thirdProject__desc {
     background-color: transparent;
     line-height: 30px;
     color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
     font-size: 1em;
+    text-align: start;
   }
   .thirdProject__techStack {
     background-color: transparent;
     line-height: 35px;
     color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
     font-size: 1em;
   }
 }
@@ -482,18 +513,27 @@ body {
     background-color: transparent;
     color: white;
     font-size: 1em;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
   }
   .forthProject__desc {
     background-color: transparent;
     line-height: 30px;
     color: white;
     font-size: 1em;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
   }
   .forthProject__techStack {
     background-color: transparent;
     line-height: 35px;
     color: white;
     font-size: 1em;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 2px solid wheat;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
