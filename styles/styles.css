@@ -77,7 +77,6 @@ body {
     padding-right: 30px;
     width: -moz-fit-content;
     width: fit-content;
-    border: 3px solid whitesmoke;
   }
   .intro__container {
     color: white;
@@ -86,7 +85,6 @@ body {
     padding-bottom: 15px;
     width: -moz-fit-content;
     width: fit-content;
-    border: 1px solid white;
   }
   .intro__desc {
     color: #808080;
@@ -95,7 +93,6 @@ body {
     letter-spacing: 5px;
     font-size: 0.9em;
     padding-bottom: 10px;
-    border: 1px solid white;
     width: -moz-fit-content;
     width: fit-content;
   }
@@ -105,7 +102,6 @@ body {
     line-height: 35px;
     letter-spacing: 3px;
     font-size: 0.9em;
-    border: 1px solid white;
   }
   .intro span {
     color: yellow;
@@ -128,6 +124,23 @@ body {
     width: fit-content;
     background-color: yellow;
     margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .title {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .title__title {
+    margin-top: 30px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    letter-spacing: 3px;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: yellow;
+    margin-left: 15px;
   }
 }
 
@@ -168,6 +181,45 @@ body {
     font-size: 0.9em;
     width: -moz-fit-content;
     width: fit-content;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .Portfolio {
+    background-color: #1e1e1e;
+    margin-top: 30px;
+    padding: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .Portfolio__Portfolio {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+  }
+  .Portfolio__desc {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .Portfolio__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .Portfolio .fa-solid {
+    color: white;
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 40px;
   }
 }
 

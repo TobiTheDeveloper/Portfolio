@@ -59,8 +59,6 @@ body {
         padding-left: 15px;
         padding-right: 30px;
         width: fit-content;
-        border: 3px solid whitesmoke;
-
 
         &__container {
             color: white;
@@ -68,7 +66,6 @@ body {
             font-size: 2.0em;
             padding-bottom: 15px;
             width: fit-content;
-            border: 1px solid white;
         }    
 
         &__desc {
@@ -78,7 +75,6 @@ body {
             letter-spacing: 5px;
             font-size: 0.9em;
             padding-bottom: 10px;
-            border: 1px solid white;
             width: fit-content;
         }
 
@@ -88,8 +84,6 @@ body {
             line-height: 35px;
             letter-spacing: 3px;
             font-size: 0.9em;
-            border: 1px solid white;
-
         }
 
         span {
@@ -137,9 +131,7 @@ body {
 .title{
 
     @include smallPhones {
-
         width: fit-content;
-
         &__title{
             margin-top: 30px;
             color: black;
@@ -149,24 +141,22 @@ body {
             width: fit-content;    
             background-color: yellow;
             margin-left: 20px;
-            
         }
     }
 
-    // @include tablet {
-    //     width: fit-content;
-
-    //     &__title{
-    //         margin-top: 30px;
-    //         color: black;
-    //         font-family: "Roboto", sans-serif;
-    //         font-size: 1.4em;
-    //         letter-spacing: 3px;
-    //         width: fit-content;    
-    //         background-color: yellow;
-    //         margin-left: 30px;
-    //     }
-    // }
+    @include mediumPhones {
+        width: fit-content;
+        &__title{
+            margin-top: 30px;
+            color: black;
+            font-family: "Roboto", sans-serif;
+            font-size: 1em;
+            letter-spacing: 3px;
+            width: fit-content;    
+            background-color: yellow;
+            margin-left: 15px;
+        }
+    }
 
     // @include desktop {
     //     width: fit-content;
@@ -225,46 +215,46 @@ body {
         }
     }
 
-    // @include mediumPhones {
-    //     background-color: #1e1e1e;
-    //     margin-top: 30px;
-    //     padding: 20px;
-    //     height: fit-content;
-    //     width: 50%;
-    //     border-radius: 10px;
-    //     margin-left: 50px;
-    //     display: inline-block;   
+    @include mediumPhones {
+        background-color: #1e1e1e;
+        margin-top: 30px;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
 
-    //     &__Portfolio{
-    //         line-height: 45px;
-    //         letter-spacing: 3px; 
-    //         background-color: transparent;    
-    //         color: white;
-    //         font-size: 1em;
-    //     }
+        &__Portfolio{
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
 
-    //     &__desc {
-    //         background-color: transparent;  
-    //         line-height: 35px;
-    //         color: white;
-    //         font-size: 1em;
-    //     }
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+            color: white;
+            font-size: 1em;
+        }
 
-    //     &__techStack {
-    //         background-color: transparent;  
-    //         line-height: 35px;     
-    //         color: white;
-    //         font-size: 1em;
-    //     }
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 1em;
+        }
 
-    //     .fa-solid{
-    //         color: white;
-    //         float: right;
-    //         position: relative;
-    //         bottom: 30px;
-    //         right: 40px;
-    //     }
-    // }
+        .fa-solid{
+            color: white;
+            float: right;
+            position: relative;
+            bottom: 30px;
+            right: 40px;
+        }
+    }
 
 
 }
