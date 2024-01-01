@@ -131,6 +131,84 @@ body {
         }
     }
 
+    @include tablet {
+        margin-top: 14px;
+        margin-right: 5px;
+        padding-left: 15px;
+        padding-right: 30px;
+        width: fit-content;
+
+        &__container {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 3.5em;
+            padding-bottom: 15px;
+            width: fit-content;
+        }
+
+        &__desc {
+            color: #808080;
+            font-family: 'Roboto', sans-serif;
+            line-height: 55px;
+            letter-spacing: 7px;
+            font-size: 1.9em;
+            padding-bottom: 10px;
+            width: fit-content;
+        }
+
+        &__desc2 {
+            color: #808080;
+            font-family: "Roboto", sans-serif;
+            line-height: 35px;
+            letter-spacing: 3px;
+            font-size: 1.8em;
+        }
+
+        span {
+            color: yellow;
+            letter-spacing: 6px;
+        }
+    }
+
+    @include desktop {
+        margin-top: 14px;
+        margin-right: 5px;
+        padding-left: 15px;
+        padding-right: 30px;
+        width: fit-content;
+
+        &__container {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 3.5em;
+            padding-bottom: 15px;
+            width: fit-content;
+        }
+
+        &__desc {
+            color: #808080;
+            font-family: 'Roboto', sans-serif;
+            line-height: 55px;
+            letter-spacing: 7px;
+            font-size: 1.9em;
+            padding-bottom: 10px;
+            width: fit-content;
+        }
+
+        &__desc2 {
+            color: #808080;
+            font-family: "Roboto", sans-serif;
+            line-height: 35px;
+            letter-spacing: 3px;
+            font-size: 1.8em;
+        }
+
+        span {
+            color: yellow;
+            letter-spacing: 6px;
+        }
+    }
+
 }
 
 .title{
@@ -146,12 +224,14 @@ body {
             width: fit-content;    
             background-color: yellow;
             margin-left: 20px;
+            border-radius: 5px;
         }
     }
 
     @include mediumPhones {
         width: fit-content;
         &__title{
+            border-radius: 5px;
             margin-top: 30px;
             color: black;
             font-family: "Roboto", sans-serif;
@@ -174,9 +254,39 @@ body {
             width: fit-content;    
             background-color: yellow;
             margin-left: 15px;
+            border-radius: 5px;
         }
     }
 
+    @include tablet {
+        width: fit-content;
+        &__title{
+            margin-top: 40px;
+            color: black;
+            font-family: "Roboto", sans-serif;
+            font-size: 1.4em;
+            letter-spacing: 3px;
+            width: fit-content;    
+            background-color: yellow;
+            margin-left: 15px;
+            border-radius: 5px;
+        }
+    }
+
+    @include desktop {
+        width: fit-content;
+        &__title{
+            margin-top: 40px;
+            color: black;
+            font-family: "Roboto", sans-serif;
+            font-size: 1.6em;
+            letter-spacing: 3px;
+            width: fit-content;    
+            background-color: yellow;
+            margin-left: 15px;
+            border-radius: 5px;
+        }
+    }
 
 }
 
@@ -284,6 +394,68 @@ body {
         }
     
     }
+
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 20px;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+
+        &__Portfolio{
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1.2em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 0.8em;
+        }
+
+    }
+
+    @include desktop {
+        background-color: #1e1e1e;
+        margin-top: 20px;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+
+        &__Portfolio{
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1.2em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 0.8em;
+        }
+
+    }
 }
 
 .fristProject {
@@ -389,6 +561,66 @@ body {
         }
     
     }
+
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 20px;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+
+        &__What2Do {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 0.8em;
+        }
+    }
+
+    @include desktop {
+        background-color: #1e1e1e;
+        margin-top: 20px;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+
+        &__What2Do {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 0.8em;
+        }
+    }
 }
 
 .secondProject {
@@ -492,6 +724,66 @@ body {
             font-size: 0.8em;
         }
     
+    }
+
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 20px;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+
+        &__CareerPathways {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 0.8em;
+        }
+    }
+
+    @include desktop {
+        background-color: #1e1e1e;
+        margin-top: 20px;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+
+        &__CareerPathways {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 0.8em;
+        }
     }
 }
 
@@ -597,6 +889,66 @@ body {
         }
     
     }
+
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 20px;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+
+        &__Konnext {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 0.8em;
+        }
+    }
+
+    @include desktop {
+        background-color: #1e1e1e;
+        margin-top: 20px;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+
+        &__Konnext {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 0.8em;
+        }
+    }
 }
 
 .forthProject {
@@ -699,6 +1051,66 @@ body {
             font-size: 0.8em;
         }
     
+    }
+
+    @include tablet {
+        background-color: #1e1e1e;
+        margin-top: 20px;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+
+        &__Moviez {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 0.8em;
+        }
+    }
+
+    @include desktop {
+        background-color: #1e1e1e;
+        margin-top: 20px;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+
+        &__Moviez {
+            line-height: 45px;
+            letter-spacing: 3px; 
+            background-color: transparent;    
+            color: white;
+            font-size: 1em;
+        }
+
+        &__desc {
+            background-color: transparent;  
+            line-height: 35px;
+            color: white;
+            font-size: 1em;
+        }
+
+        &__techStack {
+            background-color: transparent;  
+            line-height: 35px;     
+            color: white;
+            font-size: 0.8em;
+        }
     }
 }
 
