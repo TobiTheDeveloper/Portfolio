@@ -108,6 +108,45 @@ body {
     letter-spacing: 6px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .intro {
+    margin-top: 14px;
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 30px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .intro__container {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 3.5em;
+    padding-bottom: 15px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .intro__desc {
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    line-height: 55px;
+    letter-spacing: 7px;
+    font-size: 1.9em;
+    padding-bottom: 10px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .intro__desc2 {
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    line-height: 35px;
+    letter-spacing: 3px;
+    font-size: 1.8em;
+  }
+  .intro span {
+    color: yellow;
+    letter-spacing: 6px;
+  }
+}
 
 @media only screen and (max-width: 480px) {
   .title {
@@ -136,6 +175,23 @@ body {
     color: black;
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    letter-spacing: 3px;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: yellow;
+    margin-left: 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .title {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .title__title {
+    margin-top: 40px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6em;
     letter-spacing: 3px;
     width: -moz-fit-content;
     width: fit-content;
@@ -188,8 +244,7 @@ body {
     background-color: #1e1e1e;
     margin-top: 30px;
     padding: 20px;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: 95%;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -214,12 +269,34 @@ body {
     color: white;
     font-size: 1em;
   }
-  .Portfolio .fa-solid {
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .Portfolio {
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    padding: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 10px;
+  }
+  .Portfolio__Portfolio {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
     color: white;
-    float: right;
-    position: relative;
-    bottom: 30px;
-    right: 40px;
+    font-size: 1.2em;
+  }
+  .Portfolio__desc {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .Portfolio__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 0.8em;
   }
 }
 
@@ -292,12 +369,34 @@ body {
     color: white;
     font-size: 1em;
   }
-  .fristProject .fa-solid {
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .fristProject {
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    padding: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 10px;
+  }
+  .fristProject__What2Do {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
     color: white;
-    float: right;
-    position: relative;
-    bottom: 30px;
-    right: 40px;
+    font-size: 1em;
+  }
+  .fristProject__desc {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .fristProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 0.8em;
   }
 }
 
@@ -371,12 +470,34 @@ body {
     color: white;
     font-size: 1em;
   }
-  .secondProject .fa-solid {
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .secondProject {
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    padding: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 10px;
+  }
+  .secondProject__CareerPathways {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
     color: white;
-    float: right;
-    position: relative;
-    bottom: 30px;
-    right: 40px;
+    font-size: 1em;
+  }
+  .secondProject__desc {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .secondProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 0.8em;
   }
 }
 
@@ -450,12 +571,34 @@ body {
     color: white;
     font-size: 1em;
   }
-  .thirdProject .fa-solid {
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .thirdProject {
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    padding: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 10px;
+  }
+  .thirdProject__Konnext {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
     color: white;
-    float: right;
-    position: relative;
-    bottom: 30px;
-    right: 40px;
+    font-size: 1em;
+  }
+  .thirdProject__desc {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .thirdProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 0.8em;
   }
 }
 
@@ -528,12 +671,34 @@ body {
     color: white;
     font-size: 1em;
   }
-  .forthProject .fa-solid {
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .forthProject {
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    padding: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 10px;
+  }
+  .forthProject__Moviez {
+    line-height: 45px;
+    letter-spacing: 3px;
+    background-color: transparent;
     color: white;
-    float: right;
-    position: relative;
-    bottom: 30px;
-    right: 40px;
+    font-size: 1em;
+  }
+  .forthProject__desc {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 1em;
+  }
+  .forthProject__techStack {
+    background-color: transparent;
+    line-height: 35px;
+    color: white;
+    font-size: 0.8em;
   }
 }
 
