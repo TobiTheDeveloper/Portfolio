@@ -458,661 +458,661 @@ body {
     }
 }
 
-.fristProject {
+// .fristProject {
     
-    @include smallPhones {
+//     @include smallPhones {
 
-        background-color: #1e1e1e;
-        margin-top: 30px;
-        padding: 20px;
-        height: fit-content;
-        width: 90%;
-        border-radius: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+//         background-color: #1e1e1e;
+//         margin-top: 30px;
+//         padding: 20px;
+//         height: fit-content;
+//         width: 90%;
+//         border-radius: 10px;
+//         margin-left: auto;
+//         margin-right: auto;
+//         display: block;
     
-        &__What2Do {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-            width: fit-content;
-        }
+//         &__What2Do {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//             width: fit-content;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 45px;
-            color: white;
-            font-size: 0.9em;
-            width: fit-content;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 45px;
+//             color: white;
+//             font-size: 0.9em;
+//             width: fit-content;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.9em;
-            width: fit-content;
-        }    
-    }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.9em;
+//             width: fit-content;
+//         }    
+//     }
 
-    @include mediumPhones {
-        background-color: #1e1e1e;
-        margin-top: 30px;
-        padding: 20px;
-        width: 94%;
-        border-radius: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+//     @include mediumPhones {
+//         background-color: #1e1e1e;
+//         margin-top: 30px;
+//         padding: 20px;
+//         width: 94%;
+//         border-radius: 10px;
+//         margin-left: auto;
+//         margin-right: auto;
+//         display: block;
 
-        &__What2Do {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__What2Do {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 1em;
-        }
-    }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 1em;
+//         }
+//     }
 
-    @include largePhones {
-        background-color: #1e1e1e;
-        margin-top: 20px;
-        padding: 20px;
-        width: fit-content;
-        border-radius: 10px;
+//     @include largePhones {
+//         background-color: #1e1e1e;
+//         margin-top: 20px;
+//         padding: 20px;
+//         width: fit-content;
+//         border-radius: 10px;
 
-        &__What2Do {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__What2Do {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.8em;
-        }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.8em;
+//         }
     
-    }
+//     }
 
-    @include tablet {
-        background-color: #1e1e1e;
-        margin-top: 20px;
-        padding: 20px;
-        width: fit-content;
-        border-radius: 10px;
+//     @include tablet {
+//         background-color: #1e1e1e;
+//         margin-top: 20px;
+//         padding: 20px;
+//         width: fit-content;
+//         border-radius: 10px;
 
-        &__What2Do {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__What2Do {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.8em;
-        }
-    }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.8em;
+//         }
+//     }
 
-    @include desktop {
-        background-color: #1e1e1e;
-        margin-top: 20px;
-        padding: 20px;
-        width: fit-content;
-        border-radius: 10px;
+//     @include desktop {
+//         background-color: #1e1e1e;
+//         margin-top: 20px;
+//         padding: 20px;
+//         width: fit-content;
+//         border-radius: 10px;
 
-        &__What2Do {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__What2Do {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.8em;
-        }
-    }
-}
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.8em;
+//         }
+//     }
+// }
 
-.secondProject {
-    @include smallPhones {
-        background-color: #1e1e1e;
-        margin-top: 30px;
-        padding: 20px;
-        height: fit-content;
-        width: 90%;
-        border-radius: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+// .secondProject {
+//     @include smallPhones {
+//         background-color: #1e1e1e;
+//         margin-top: 30px;
+//         padding: 20px;
+//         height: fit-content;
+//         width: 90%;
+//         border-radius: 10px;
+//         margin-left: auto;
+//         margin-right: auto;
+//         display: block;
 
-        &__CareerPathways{
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            width: fit-content;
-            font-size: 1em;
-        }
+//         &__CareerPathways{
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             width: fit-content;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 30px;
-            color: white;
-            width: fit-content;
-            font-size: 0.9em;
-            text-align: start;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 30px;
+//             color: white;
+//             width: fit-content;
+//             font-size: 0.9em;
+//             text-align: start;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.9em;
-            width: fit-content;
-        } 
-    }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.9em;
+//             width: fit-content;
+//         } 
+//     }
 
-    @include mediumPhones {
-        background-color: #1e1e1e;
-        margin-top: 30px;
-        padding: 20px;
-        width: 94%;
-        border-radius: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+//     @include mediumPhones {
+//         background-color: #1e1e1e;
+//         margin-top: 30px;
+//         padding: 20px;
+//         width: 94%;
+//         border-radius: 10px;
+//         margin-left: auto;
+//         margin-right: auto;
+//         display: block;
 
-        &__CareerPathways {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__CareerPathways {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 1em;
-        }
-    }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 1em;
+//         }
+//     }
 
-    @include largePhones {
-        background-color: #1e1e1e;
-        margin-top: 20px;
-        padding: 20px;
-        width: fit-content;
-        border-radius: 10px;
+//     @include largePhones {
+//         background-color: #1e1e1e;
+//         margin-top: 20px;
+//         padding: 20px;
+//         width: fit-content;
+//         border-radius: 10px;
 
-        &__CareerPathways {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__CareerPathways {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.8em;
-        }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.8em;
+//         }
     
-    }
+//     }
 
-    @include tablet {
-        background-color: #1e1e1e;
-        margin-top: 20px;
-        padding: 20px;
-        width: fit-content;
-        border-radius: 10px;
+//     @include tablet {
+//         background-color: #1e1e1e;
+//         margin-top: 20px;
+//         padding: 20px;
+//         width: fit-content;
+//         border-radius: 10px;
 
-        &__CareerPathways {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__CareerPathways {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.8em;
-        }
-    }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.8em;
+//         }
+//     }
 
-    @include desktop {
-        background-color: #1e1e1e;
-        margin-top: 20px;
-        padding: 20px;
-        width: fit-content;
-        border-radius: 10px;
+//     @include desktop {
+//         background-color: #1e1e1e;
+//         margin-top: 20px;
+//         padding: 20px;
+//         width: fit-content;
+//         border-radius: 10px;
 
-        &__CareerPathways {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__CareerPathways {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.8em;
-        }
-    }
-}
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.8em;
+//         }
+//     }
+// }
 
-.thirdProject {
-    @include smallPhones {
-        background-color: #1e1e1e;
-        margin-top: 30px;
-        padding: 20px;
-        height: fit-content;
-        width: 90%;
-        border-radius: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+// .thirdProject {
+//     @include smallPhones {
+//         background-color: #1e1e1e;
+//         margin-top: 30px;
+//         padding: 20px;
+//         height: fit-content;
+//         width: 90%;
+//         border-radius: 10px;
+//         margin-left: auto;
+//         margin-right: auto;
+//         display: block;
 
-        &__Konnext{
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-            width: fit-content;
-        }
+//         &__Konnext{
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//             width: fit-content;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 30px;
-            color: white;
-            width: fit-content;
-            font-size: 1em;
-            text-align: start;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 30px;
+//             color: white;
+//             width: fit-content;
+//             font-size: 1em;
+//             text-align: start;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            width: fit-content;
-            font-size: 1em;
-        } 
-    }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             width: fit-content;
+//             font-size: 1em;
+//         } 
+//     }
 
-    @include mediumPhones {
-        background-color: #1e1e1e;
-        margin-top: 30px;
-        padding: 20px;
-        width: 94%;
-        border-radius: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+//     @include mediumPhones {
+//         background-color: #1e1e1e;
+//         margin-top: 30px;
+//         padding: 20px;
+//         width: 94%;
+//         border-radius: 10px;
+//         margin-left: auto;
+//         margin-right: auto;
+//         display: block;
 
-        &__Konnext {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__Konnext {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 1em;
-        }
-    }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 1em;
+//         }
+//     }
 
-    @include largePhones {
-        background-color: #1e1e1e;
-        margin-top: 20px;
-        padding: 20px;
-        width: fit-content;
-        border-radius: 10px;
+//     @include largePhones {
+//         background-color: #1e1e1e;
+//         margin-top: 20px;
+//         padding: 20px;
+//         width: fit-content;
+//         border-radius: 10px;
 
-        &__Konnext {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__Konnext {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.8em;
-        }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.8em;
+//         }
     
-    }
+//     }
 
-    @include tablet {
-        background-color: #1e1e1e;
-        margin-top: 20px;
-        padding: 20px;
-        width: fit-content;
-        border-radius: 10px;
+//     @include tablet {
+//         background-color: #1e1e1e;
+//         margin-top: 20px;
+//         padding: 20px;
+//         width: fit-content;
+//         border-radius: 10px;
 
-        &__Konnext {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__Konnext {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.8em;
-        }
-    }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.8em;
+//         }
+//     }
 
-    @include desktop {
-        background-color: #1e1e1e;
-        margin-top: 20px;
-        padding: 20px;
-        width: fit-content;
-        border-radius: 10px;
+//     @include desktop {
+//         background-color: #1e1e1e;
+//         margin-top: 20px;
+//         padding: 20px;
+//         width: fit-content;
+//         border-radius: 10px;
 
-        &__Konnext {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__Konnext {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.8em;
-        }
-    }
-}
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.8em;
+//         }
+//     }
+// }
 
-.forthProject {
-    @include smallPhones {
-        background-color: #1e1e1e;
-        margin-top: 30px;
-        padding: 20px;
-        height: fit-content;
-        width: 90%;
-        border-radius: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+// .forthProject {
+//     @include smallPhones {
+//         background-color: #1e1e1e;
+//         margin-top: 30px;
+//         padding: 20px;
+//         height: fit-content;
+//         width: 90%;
+//         border-radius: 10px;
+//         margin-left: auto;
+//         margin-right: auto;
+//         display: block;
 
-        &__Moviez{
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-            width: fit-content;
-        }
+//         &__Moviez{
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//             width: fit-content;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 30px;
-            color: white;
-            font-size: 1em;
-            width: fit-content;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 30px;
+//             color: white;
+//             font-size: 1em;
+//             width: fit-content;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 1em;
-            width: fit-content;
-        } 
-    }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 1em;
+//             width: fit-content;
+//         } 
+//     }
 
-    @include mediumPhones {
-        background-color: #1e1e1e;
-        margin-top: 30px;
-        padding: 20px;
-        width: 94%;
-        border-radius: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+//     @include mediumPhones {
+//         background-color: #1e1e1e;
+//         margin-top: 30px;
+//         padding: 20px;
+//         width: 94%;
+//         border-radius: 10px;
+//         margin-left: auto;
+//         margin-right: auto;
+//         display: block;
 
-        &__Moviez {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__Moviez {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 1em;
-        }
-    }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 1em;
+//         }
+//     }
 
-    @include largePhones {
-        background-color: #1e1e1e;
-        margin-top: 20px;
-        padding: 20px;
-        width: fit-content;
-        border-radius: 10px;
+//     @include largePhones {
+//         background-color: #1e1e1e;
+//         margin-top: 20px;
+//         padding: 20px;
+//         width: fit-content;
+//         border-radius: 10px;
 
-        &__Moviez {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__Moviez {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.8em;
-        }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.8em;
+//         }
     
-    }
+//     }
 
-    @include tablet {
-        background-color: #1e1e1e;
-        margin-top: 20px;
-        padding: 20px;
-        width: fit-content;
-        border-radius: 10px;
+//     @include tablet {
+//         background-color: #1e1e1e;
+//         margin-top: 20px;
+//         padding: 20px;
+//         width: fit-content;
+//         border-radius: 10px;
 
-        &__Moviez {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__Moviez {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.8em;
-        }
-    }
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.8em;
+//         }
+//     }
 
-    @include desktop {
-        background-color: #1e1e1e;
-        margin-top: 20px;
-        padding: 20px;
-        width: fit-content;
-        border-radius: 10px;
+//     @include desktop {
+//         background-color: #1e1e1e;
+//         margin-top: 20px;
+//         padding: 20px;
+//         width: fit-content;
+//         border-radius: 10px;
 
-        &__Moviez {
-            line-height: 45px;
-            letter-spacing: 3px; 
-            background-color: transparent;    
-            color: white;
-            font-size: 1em;
-        }
+//         &__Moviez {
+//             line-height: 45px;
+//             letter-spacing: 3px; 
+//             background-color: transparent;    
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__desc {
-            background-color: transparent;  
-            line-height: 35px;
-            color: white;
-            font-size: 1em;
-        }
+//         &__desc {
+//             background-color: transparent;  
+//             line-height: 35px;
+//             color: white;
+//             font-size: 1em;
+//         }
 
-        &__techStack {
-            background-color: transparent;  
-            line-height: 35px;     
-            color: white;
-            font-size: 0.8em;
-        }
-    }
-}
+//         &__techStack {
+//             background-color: transparent;  
+//             line-height: 35px;     
+//             color: white;
+//             font-size: 0.8em;
+//         }
+//     }
+// }
 
 .Certificates {
     color: white;

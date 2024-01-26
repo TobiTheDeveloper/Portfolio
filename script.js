@@ -7,5 +7,5 @@ function openResume() {
 
 //JavaScript to open Certificates and Degree
 function openCertificates() {
-    window.open(); //I will add all my certificate into one as PDF
+    window.open('./certificateXdegree.pdf', '_blank'); //I will add all my certificate into one as PDF
 }
